@@ -6,6 +6,7 @@ package UI;
 
 import Employee.EmpDetails;
 import Employee.Person;
+import java.awt.Image;
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
@@ -529,15 +530,19 @@ public class ViewJPanel extends javax.swing.JPanel {
         DefaultTableModel model = (DefaultTableModel) tblEmployeeDrc.getModel();
         Person selectedPerson = (Person) model.getValueAt(selectedRowIndex,0);
         
-        try {
+        /*try*/ {
             // TODO add your handling code here:
             
             
            String photoLocation = selectedPerson.getPhotoLocation();
-            lblPhoto.setIcon( new ImageIcon(ImageIO.read( new File( photoLocation) ) ) );
-        } catch (IOException ex) {
-            Logger.getLogger(ViewJPanel.class.getName()).log(Level.SEVERE, null, ex);
-        }
+           ImageIcon img = new ImageIcon(photoLocation);
+        Image image = img.getImage().getScaledInstance(lblPhoto.getWidth(), lblPhoto.getHeight(), Image.SCALE_SMOOTH);
+        lblPhoto.setIcon(new ImageIcon(image)); 
+           //lblPhoto.setIcon( new ImageIcon(ImageIO.read( new File( photoLocation) ) ) );
+            
+        } // (IOException ex) {
+            //Logger.getLogger(ViewJPanel.class.getName()).log(Level.SEVERE, null, ex);
+        //}
 
         
         
