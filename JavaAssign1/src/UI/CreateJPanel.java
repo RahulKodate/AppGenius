@@ -68,6 +68,8 @@ public class CreateJPanel extends javax.swing.JPanel {
         txtImageLocation = new javax.swing.JTextField();
         lblProfileImage = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(51, 153, 255));
+
         jCreate.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jCreate.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jCreate.setText("Insert Employee Details");
