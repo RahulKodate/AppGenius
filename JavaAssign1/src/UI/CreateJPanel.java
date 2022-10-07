@@ -360,7 +360,14 @@ public class CreateJPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(this, "Please enter all details");
             return;
         }else
-      
+            if(details.getEmpDetails()!=null){
+            for(Person loop : details.getEmpDetails()){
+                if(Integer.parseInt(txtEmployeeId.getText()) == (loop.getEmployeeId())){
+                JOptionPane.showMessageDialog(this, "Duplicate Employee ID");
+                return;
+                }
+            }
+            }
         if (!name.matches("^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$")) {
             JOptionPane.showMessageDialog(this, "Invalid Name");
             return;
@@ -371,6 +378,7 @@ public class CreateJPanel extends javax.swing.JPanel {
             return;
             } 
         else
+                
          if(Integer.parseInt(age) <0 ||(Integer.parseInt(age))>100){
             JOptionPane.showMessageDialog(this, "Invalid age, Limit 0-100");
             return;
@@ -381,6 +389,7 @@ public class CreateJPanel extends javax.swing.JPanel {
             return;
         }
         else
+                
          if(!startDate.matches("^(?:(?:(?:0?[13578]|1[02])(\\/|-|\\.)31)\\1|" +
             "(?:(?:0?[1,3-9]|1[0-2])(\\/|-|\\.)(?:29|30)\\2))" +
             "(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:0?2(\\/|-|\\.)29\\3" +
@@ -396,7 +405,9 @@ public class CreateJPanel extends javax.swing.JPanel {
           if(level.isEmpty()){
             JOptionPane.showMessageDialog(this, "Please enter level of Employee");
             return;
-        }else
+        }
+          else
+              
         if(teamInfo.isEmpty()){
             JOptionPane.showMessageDialog(this, "Please Enter Team Information");
             return;

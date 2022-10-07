@@ -110,6 +110,7 @@ public class ViewJPanel extends javax.swing.JPanel {
 
         lblProfilePhoto.setText("Profile Photo:");
 
+        txtEmployeeId.setEditable(false);
         txtEmployeeId.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtEmployeeIdActionPerformed(evt);
