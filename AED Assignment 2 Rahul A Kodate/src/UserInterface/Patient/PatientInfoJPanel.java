@@ -84,7 +84,7 @@ public class PatientInfoJPanel extends javax.swing.JPanel {
         setPreferredSize(new java.awt.Dimension(1969, 800));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("PATIENT INFORMATION");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, -1));
@@ -127,7 +127,7 @@ public class PatientInfoJPanel extends javax.swing.JPanel {
         });
         add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 280, 221, 30));
 
-        saveBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        saveBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,7 +136,7 @@ public class PatientInfoJPanel extends javax.swing.JPanel {
         });
         add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 460, 130, -1));
 
-        UpdateBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        UpdateBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         UpdateBtn.setText("Update");
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,6 +168,11 @@ public class PatientInfoJPanel extends javax.swing.JPanel {
         add(bloodGroupTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 400, 221, -1));
 
         genderComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "female", "male", "other" }));
+        genderComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                genderComboBoxActionPerformed(evt);
+            }
+        });
         add(genderComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 360, 221, -1));
     }// </editor-fold>//GEN-END:initComponents
 
@@ -226,6 +231,10 @@ public class PatientInfoJPanel extends javax.swing.JPanel {
        this.UpdateBtn.setEnabled(true);
         
     }//GEN-LAST:event_saveBtnActionPerformed
+
+    private void genderComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_genderComboBoxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_genderComboBoxActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

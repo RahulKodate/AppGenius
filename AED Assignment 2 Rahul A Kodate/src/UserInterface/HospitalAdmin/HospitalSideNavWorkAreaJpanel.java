@@ -54,7 +54,7 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
+        systemAdminPanel.setBackground(new java.awt.Color(0, 105, 255));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
@@ -68,17 +68,16 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
             .addGap(0, 2424, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(0, 105, 255));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("AppleMyungjo", 1, 18)); // NOI18N
         jLabel3.setText("Hospital Admin!");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 30, 120, 30));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 150, 30));
 
-        manageDoctorsbtn.setBackground(new java.awt.Color(204, 204, 204));
-        manageDoctorsbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        manageDoctorsbtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         manageDoctorsbtn.setText("Manage Doctors");
         manageDoctorsbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,8 +86,7 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
         });
         jPanel3.add(manageDoctorsbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 200, 40));
 
-        editHospitalInfo.setBackground(new java.awt.Color(204, 204, 204));
-        editHospitalInfo.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        editHospitalInfo.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         editHospitalInfo.setText("Edit Information");
         editHospitalInfo.setMaximumSize(new java.awt.Dimension(200, 40));
         editHospitalInfo.setMinimumSize(new java.awt.Dimension(200, 40));
@@ -100,8 +98,7 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
         });
         jPanel3.add(editHospitalInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, -1, -1));
 
-        managePatientsBtn1.setBackground(new java.awt.Color(204, 204, 204));
-        managePatientsBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        managePatientsBtn1.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         managePatientsBtn1.setText("Manage Patients");
         managePatientsBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

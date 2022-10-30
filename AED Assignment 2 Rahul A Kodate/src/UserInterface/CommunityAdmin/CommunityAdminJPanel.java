@@ -64,7 +64,7 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
         rightJPanel.setLayout(new java.awt.CardLayout());
 
         btnCommunityAdmin.setBackground(new java.awt.Color(0, 105, 255));
-        btnCommunityAdmin.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnCommunityAdmin.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnCommunityAdmin.setText("Manage Community");
         btnCommunityAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

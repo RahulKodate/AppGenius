@@ -97,7 +97,7 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         lblHospital.setText("Hospital: ");
         add(lblHospital, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, 124, 27));
 
-        searchByHospitalName.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        searchByHospitalName.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         searchByHospitalName.setText("Get available time slots");
         searchByHospitalName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,7 +144,7 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         lblDate.setText("Date:");
         add(lblDate, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 200, 124, 27));
 
-        btnBook.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnBook.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnBook.setText("Book ");
         btnBook.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

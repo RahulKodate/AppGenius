@@ -45,12 +45,13 @@ public class AddCityJPanel extends javax.swing.JPanel {
         txtCityName = new javax.swing.JTextField();
         btnSaveCity = new javax.swing.JButton();
 
-        lblTitle.setFont(new java.awt.Font("Perpetua", 1, 24)); // NOI18N
+        lblTitle.setFont(new java.awt.Font("AppleMyungjo", 1, 24)); // NOI18N
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Add City");
 
         lblCityName.setText("City Name");
 
+        btnSaveCity.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnSaveCity.setText("Save");
         btnSaveCity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

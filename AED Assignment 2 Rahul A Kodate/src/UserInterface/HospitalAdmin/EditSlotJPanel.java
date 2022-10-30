@@ -53,7 +53,7 @@ public class EditSlotJPanel extends javax.swing.JPanel {
         btnSave = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
 
         lblAppointmentDate.setText("Appointment Date:");
 
@@ -67,7 +67,7 @@ public class EditSlotJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnButton.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnButton.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnButton.setText("Update");
         btnButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,7 +75,7 @@ public class EditSlotJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnSave.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnSave.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,7 +83,7 @@ public class EditSlotJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnBack.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnBack.setText("< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,7 +124,7 @@ public class EditSlotJPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(54, 54, 54)
                 .addComponent(btnBack)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 102, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 98, Short.MAX_VALUE)
                 .addComponent(lblAppointmentDate)
                 .addGap(26, 26, 26)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)

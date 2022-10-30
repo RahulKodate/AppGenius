@@ -66,11 +66,11 @@ public class AddSlotsJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(0, 105, 255));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("ADD SLOTS");
 
-        btnSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnSave.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,7 +78,7 @@ public class AddSlotsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnBack.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnBack.setText("< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -149,7 +149,7 @@ public class AddSlotsJPanel extends javax.swing.JPanel {
                         .addComponent(inTimeTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(49, 49, 49)
                 .addComponent(btnSave)
-                .addContainerGap(138, Short.MAX_VALUE))
+                .addContainerGap(136, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

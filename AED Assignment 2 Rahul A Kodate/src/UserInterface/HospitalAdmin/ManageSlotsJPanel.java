@@ -59,12 +59,12 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("MANAGE SLOTS");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 30, 310, 42));
 
-        btnBack.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnBack.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnBack.setText("< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,7 +85,7 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 120, 670, 156));
 
-        Refreshbtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        Refreshbtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         Refreshbtn.setText("Refresh");
         Refreshbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,7 +94,7 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         });
         add(Refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, 180, 40));
 
-        addBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        addBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         addBtn.setText("Add ");
         addBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,7 +103,7 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         });
         add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 180, 40));
 
-        Deletebtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        Deletebtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         Deletebtn.setText("Delete");
         Deletebtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,7 +112,7 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         });
         add(Deletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 390, 180, 40));
 
-        Viewbtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        Viewbtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         Viewbtn.setText("View");
         Viewbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

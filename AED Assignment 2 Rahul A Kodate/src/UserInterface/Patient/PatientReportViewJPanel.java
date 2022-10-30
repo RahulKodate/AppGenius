@@ -49,7 +49,7 @@ public class PatientReportViewJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        jButton1.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         jButton1.setText("< Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

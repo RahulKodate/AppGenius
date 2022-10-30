@@ -73,12 +73,12 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         leftJPanel.setPreferredSize(new java.awt.Dimension(280, 840));
         leftJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        lblPatientPortal.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        lblPatientPortal.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         lblPatientPortal.setText("Patient Portal ");
         leftJPanel.add(lblPatientPortal, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 140, 100, 30));
 
         historyBtn.setBackground(new java.awt.Color(102, 255, 102));
-        historyBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        historyBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         historyBtn.setText("History");
         historyBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,7 +88,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         leftJPanel.add(historyBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 200, 40));
 
         appointmentBtn.setBackground(new java.awt.Color(102, 255, 102));
-        appointmentBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        appointmentBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         appointmentBtn.setText("Appointments");
         appointmentBtn.setMaximumSize(new java.awt.Dimension(200, 40));
         appointmentBtn.setMinimumSize(new java.awt.Dimension(200, 40));
@@ -101,7 +101,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         leftJPanel.add(appointmentBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, -1, -1));
 
         personalInfoBtn1.setBackground(new java.awt.Color(102, 255, 102));
-        personalInfoBtn1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        personalInfoBtn1.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         personalInfoBtn1.setText("Personal Information");
         personalInfoBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -67,10 +67,10 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
         btnViewDoctor = new javax.swing.JButton();
         btnRefresfh = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         backBtn.setText("< Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,7 +79,7 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 120, 30));
 
-        lblManageDoctors.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        lblManageDoctors.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         lblManageDoctors.setForeground(new java.awt.Color(255, 255, 255));
         lblManageDoctors.setText("MANAGE DOCTORS");
         add(lblManageDoctors, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 380, -1));
@@ -99,7 +99,7 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 710, 131));
 
-        btnAddDoctor.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnAddDoctor.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnAddDoctor.setText("Add ");
         btnAddDoctor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,7 +108,7 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
         });
         add(btnAddDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 370, 210, 40));
 
-        btnDeleteDoctor.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnDeleteDoctor.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnDeleteDoctor.setText("Delete");
         btnDeleteDoctor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,7 +117,7 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
         });
         add(btnDeleteDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 420, 210, 40));
 
-        btnViewDoctor.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnViewDoctor.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnViewDoctor.setText("View ");
         btnViewDoctor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,7 +126,7 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
         });
         add(btnViewDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 470, 210, 40));
 
-        btnRefresfh.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnRefresfh.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnRefresfh.setText("Refresh");
         btnRefresfh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

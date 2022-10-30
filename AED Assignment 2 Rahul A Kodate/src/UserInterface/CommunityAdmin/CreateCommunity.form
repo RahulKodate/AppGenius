@@ -73,7 +73,7 @@
               </Group>
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Component id="btnSaveCommunity" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="145" max="32767" attributes="0"/>
+              <EmptySpace pref="144" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -88,6 +88,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnSaveCommunity">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="AppleMyungjo" size="14" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Save"/>
       </Properties>
       <Events>

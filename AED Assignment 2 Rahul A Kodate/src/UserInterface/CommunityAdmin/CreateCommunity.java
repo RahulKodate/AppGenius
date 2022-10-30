@@ -56,6 +56,7 @@ public class CreateCommunity extends javax.swing.JPanel {
 
         jLabel1.setText("Community:");
 
+        btnSaveCommunity.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnSaveCommunity.setText("Save");
         btnSaveCommunity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,7 +131,7 @@ public class CreateCommunity extends javax.swing.JPanel {
                     .addComponent(txtHouse, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(40, 40, 40)
                 .addComponent(btnSaveCommunity)
-                .addContainerGap(145, Short.MAX_VALUE))
+                .addContainerGap(144, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

@@ -96,7 +96,7 @@ public class PatientUpcomingAppointmentsJPanel extends javax.swing.JPanel {
         UpcomingAppointmentsJPanel.setBackground(new java.awt.Color(0, 105, 255));
         UpcomingAppointmentsJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        lblUpcomingAppointments.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        lblUpcomingAppointments.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         lblUpcomingAppointments.setForeground(new java.awt.Color(255, 255, 255));
         lblUpcomingAppointments.setText("UPCOMING APPOINTMENTS");
         UpcomingAppointmentsJPanel.add(lblUpcomingAppointments, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, -1, 58));
@@ -116,7 +116,7 @@ public class PatientUpcomingAppointmentsJPanel extends javax.swing.JPanel {
 
         UpcomingAppointmentsJPanel.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 700, 183));
 
-        btnCancelAppointment.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnCancelAppointment.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnCancelAppointment.setText("Cancel  Appointment");
         btnCancelAppointment.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
