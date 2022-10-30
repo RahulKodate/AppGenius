@@ -9,7 +9,7 @@ import Business.Hospital.Hospital;
 
 /**
  *
- * @author shrutikasalian
+ * @author rahulkodate
  */
 public class Rooms {
     private String RoomType;

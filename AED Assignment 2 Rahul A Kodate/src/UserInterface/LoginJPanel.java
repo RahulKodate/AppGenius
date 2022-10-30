@@ -58,7 +58,7 @@ public class LoginJPanel extends javax.swing.JPanel {
         setPreferredSize(new java.awt.Dimension(1300, 900));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        leftPanel.setBackground(new java.awt.Color(255, 255, 204));
+        leftPanel.setBackground(new java.awt.Color(255, 255, 51));
         leftPanel.setMinimumSize(new java.awt.Dimension(1338, 60));
         leftPanel.setPreferredSize(new java.awt.Dimension(1338, 60));
         leftPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

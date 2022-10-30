@@ -20,7 +20,7 @@ import UserInterface.HospitalAdmin.CreatePhysicianJPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
 
@@ -58,12 +58,12 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        leftJPanel.setBackground(new java.awt.Color(153, 255, 153));
+        leftJPanel.setBackground(new java.awt.Color(0, 105, 255));
         leftJPanel.setMinimumSize(new java.awt.Dimension(280, 840));
         leftJPanel.setPreferredSize(new java.awt.Dimension(280, 840));
         leftJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        hospitalPortalBtn.setBackground(new java.awt.Color(98, 203, 182));
+        hospitalPortalBtn.setBackground(new java.awt.Color(102, 255, 102));
         hospitalPortalBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         hospitalPortalBtn.setText("Manage Hospital ");
         hospitalPortalBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -73,7 +73,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         });
         leftJPanel.add(hospitalPortalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 200, 40));
 
-        manageDoctor.setBackground(new java.awt.Color(98, 203, 182));
+        manageDoctor.setBackground(new java.awt.Color(102, 255, 102));
         manageDoctor.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         manageDoctor.setText("Manage Doctor");
         manageDoctor.addActionListener(new java.awt.event.ActionListener() {
@@ -83,7 +83,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         });
         leftJPanel.add(manageDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 200, 40));
 
-        btnCommunityAdmin.setBackground(new java.awt.Color(98, 203, 182));
+        btnCommunityAdmin.setBackground(new java.awt.Color(102, 255, 102));
         btnCommunityAdmin.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         btnCommunityAdmin.setText("Manage Community");
         btnCommunityAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -93,7 +93,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         });
         leftJPanel.add(btnCommunityAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 200, 40));
 
-        btnPatient.setBackground(new java.awt.Color(98, 203, 182));
+        btnPatient.setBackground(new java.awt.Color(102, 255, 102));
         btnPatient.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         btnPatient.setText("Manage Patient");
         btnPatient.addActionListener(new java.awt.event.ActionListener() {
@@ -107,7 +107,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         rightJPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightJPanel.setLayout(new java.awt.CardLayout());
 
-        jLabel1.setBackground(new java.awt.Color(204, 255, 204));
+        jLabel1.setBackground(new java.awt.Color(0, 105, 255));
         rightJPanel.add(jLabel1, "card2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

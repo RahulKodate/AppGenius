@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author moins
+ * @author rahulkodate
  */
 public class CommunityAdminRole extends Role {
      @Override

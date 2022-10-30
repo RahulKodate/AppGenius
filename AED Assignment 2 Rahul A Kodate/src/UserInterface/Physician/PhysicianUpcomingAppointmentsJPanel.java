@@ -22,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class PhysicianUpcomingAppointmentsJPanel extends javax.swing.JPanel {
     
@@ -99,7 +99,7 @@ public class PhysicianUpcomingAppointmentsJPanel extends javax.swing.JPanel {
         btnCompleteAppointment = new javax.swing.JButton();
         btnRefresh = new javax.swing.JButton();
 
-        UpcomingAppointmentsJPanel.setBackground(new java.awt.Color(204, 255, 204));
+        UpcomingAppointmentsJPanel.setBackground(new java.awt.Color(0, 105, 255));
         UpcomingAppointmentsJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         UpcomingAppointmentsJLabel.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N

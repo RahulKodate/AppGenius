@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author shrutikasalian
+ * @author rahulkodate
  */
 public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
 
@@ -48,7 +48,7 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
         ScheduleAppointmentBtn = new javax.swing.JButton();
         backBtn = new javax.swing.JButton();
 
-        rightJPanel.setBackground(new java.awt.Color(204, 255, 204));
+        rightJPanel.setBackground(new java.awt.Color(0, 105, 255));
 
         javax.swing.GroupLayout rightJPanelLayout = new javax.swing.GroupLayout(rightJPanel);
         rightJPanel.setLayout(rightJPanelLayout);
@@ -63,9 +63,9 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(rightJPanel);
 
-        leftJPanel.setBackground(new java.awt.Color(172, 255, 172));
+        leftJPanel.setBackground(new java.awt.Color(0, 105, 255));
 
-        UpcomingAppointmentBtn.setBackground(new java.awt.Color(98, 203, 182));
+        UpcomingAppointmentBtn.setBackground(new java.awt.Color(102, 255, 102));
         UpcomingAppointmentBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         UpcomingAppointmentBtn.setText("Upcoming Appointments");
         UpcomingAppointmentBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +74,7 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
             }
         });
 
-        ScheduleAppointmentBtn.setBackground(new java.awt.Color(98, 203, 182));
+        ScheduleAppointmentBtn.setBackground(new java.awt.Color(102, 255, 102));
         ScheduleAppointmentBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         ScheduleAppointmentBtn.setText("Pending Approvals");
         ScheduleAppointmentBtn.addActionListener(new java.awt.event.ActionListener() {

@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
     
@@ -94,7 +94,7 @@ public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
         btnAccept = new javax.swing.JButton();
         btnDecline = new javax.swing.JButton();
 
-        PendingApprovalsJPanel.setBackground(new java.awt.Color(204, 255, 204));
+        PendingApprovalsJPanel.setBackground(new java.awt.Color(0, 105, 255));
 
         lblPendingApprovals.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         lblPendingApprovals.setForeground(new java.awt.Color(255, 255, 255));

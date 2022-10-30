@@ -26,7 +26,7 @@ import java.text.SimpleDateFormat;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
 
@@ -83,9 +83,8 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         jTable1 = new javax.swing.JTable();
         lblDate = new javax.swing.JLabel();
         btnBook = new javax.swing.JButton();
-        dateChooserCombo1 = new datechooser.beans.DateChooserCombo();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         doctorNameCombo.addActionListener(new java.awt.event.ActionListener() {
@@ -153,7 +152,6 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBook, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 520, 190, 40));
-        add(dateChooserCombo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 200, 200, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void doctorNameComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doctorNameComboActionPerformed
@@ -297,7 +295,6 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBook;
     private javax.swing.JComboBox<Community> communityComboBox;
-    private datechooser.beans.DateChooserCombo dateChooserCombo1;
     private javax.swing.JComboBox<Doctor> doctorNameCombo;
     private javax.swing.JComboBox<Hospital> hospitalNameComboBox;
     private javax.swing.JScrollPane jScrollPane1;

@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class PatientInfoJPanel extends javax.swing.JPanel {
     
@@ -79,7 +79,7 @@ public class PatientInfoJPanel extends javax.swing.JPanel {
         bloodGroupTxt = new javax.swing.JTextField();
         genderComboBox = new javax.swing.JComboBox<>();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setMinimumSize(new java.awt.Dimension(1366, 768));
         setPreferredSize(new java.awt.Dimension(1969, 800));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

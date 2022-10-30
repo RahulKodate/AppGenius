@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class CreatePatientJPanel extends javax.swing.JPanel {
 
@@ -66,7 +66,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setPreferredSize(new java.awt.Dimension(850, 540));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

@@ -6,7 +6,7 @@ package UserInterface.SystemAdmin;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class CreateAdminJPanel extends javax.swing.JPanel {
 
@@ -80,7 +80,7 @@ public class CreateAdminJPanel extends javax.swing.JPanel {
         });
         add(submitbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 260, 170, -1));
 
-        jLabel1.setBackground(new java.awt.Color(138, 194, 211));
+        jLabel1.setBackground(new java.awt.Color(0, 105, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/BKG1.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 680, 520));

@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author shrutikasalian
+ * @author rahulkodate
  */
 public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
@@ -68,7 +68,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        leftJPanel.setBackground(new java.awt.Color(153, 255, 153));
+        leftJPanel.setBackground(new java.awt.Color(0, 105, 255));
         leftJPanel.setMinimumSize(new java.awt.Dimension(280, 840));
         leftJPanel.setPreferredSize(new java.awt.Dimension(280, 840));
         leftJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -77,7 +77,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         lblPatientPortal.setText("Patient Portal ");
         leftJPanel.add(lblPatientPortal, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 140, 100, 30));
 
-        historyBtn.setBackground(new java.awt.Color(98, 203, 182));
+        historyBtn.setBackground(new java.awt.Color(102, 255, 102));
         historyBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         historyBtn.setText("History");
         historyBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -87,7 +87,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         });
         leftJPanel.add(historyBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 200, 40));
 
-        appointmentBtn.setBackground(new java.awt.Color(98, 203, 182));
+        appointmentBtn.setBackground(new java.awt.Color(102, 255, 102));
         appointmentBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         appointmentBtn.setText("Appointments");
         appointmentBtn.setMaximumSize(new java.awt.Dimension(200, 40));
@@ -100,7 +100,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         });
         leftJPanel.add(appointmentBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, -1, -1));
 
-        personalInfoBtn1.setBackground(new java.awt.Color(98, 203, 182));
+        personalInfoBtn1.setBackground(new java.awt.Color(102, 255, 102));
         personalInfoBtn1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         personalInfoBtn1.setText("Personal Information");
         personalInfoBtn1.addActionListener(new java.awt.event.ActionListener() {
@@ -110,7 +110,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         });
         leftJPanel.add(personalInfoBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 200, 40));
 
-        rightJPanel.setBackground(new java.awt.Color(204, 255, 204));
+        rightJPanel.setBackground(new java.awt.Color(0, 105, 255));
         rightJPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
         rightJPanel.setLayout(new java.awt.CardLayout());
 

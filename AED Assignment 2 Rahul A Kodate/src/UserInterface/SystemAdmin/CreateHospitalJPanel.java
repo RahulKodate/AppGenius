@@ -24,7 +24,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class CreateHospitalJPanel extends javax.swing.JPanel {
     UserAccount account;
@@ -79,7 +79,7 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
         communityNameComboBox = new javax.swing.JComboBox<>();
         lblCommunity = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         adminTxt.addActionListener(new java.awt.event.ActionListener() {

@@ -9,7 +9,7 @@ import Business.Manufacturer.*;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class Item {  private String itemtype;
     private String itemName;

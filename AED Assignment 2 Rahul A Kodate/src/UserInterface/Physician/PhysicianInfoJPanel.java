@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class PhysicianInfoJPanel extends javax.swing.JPanel {
 
@@ -73,7 +73,7 @@ public class PhysicianInfoJPanel extends javax.swing.JPanel {
         contactNumberTxt = new javax.swing.JTextField();
         deptTxt = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         UpdateBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N

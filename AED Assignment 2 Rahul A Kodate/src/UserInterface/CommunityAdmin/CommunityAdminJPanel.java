@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author moins
+ * @author rahulkodate
  */
 public class CommunityAdminJPanel extends javax.swing.JPanel {
 
@@ -44,7 +44,7 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(204, 255, 204));
 
-        leftJPanel.setBackground(new java.awt.Color(204, 255, 204));
+        leftJPanel.setBackground(new java.awt.Color(0, 105, 255));
 
         javax.swing.GroupLayout leftJPanelLayout = new javax.swing.GroupLayout(leftJPanel);
         leftJPanel.setLayout(leftJPanelLayout);
@@ -63,7 +63,7 @@ public class CommunityAdminJPanel extends javax.swing.JPanel {
         rightJPanel.setPreferredSize(new java.awt.Dimension(145, 474));
         rightJPanel.setLayout(new java.awt.CardLayout());
 
-        btnCommunityAdmin.setBackground(new java.awt.Color(98, 203, 182));
+        btnCommunityAdmin.setBackground(new java.awt.Color(0, 105, 255));
         btnCommunityAdmin.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         btnCommunityAdmin.setText("Manage Community");
         btnCommunityAdmin.addActionListener(new java.awt.event.ActionListener() {

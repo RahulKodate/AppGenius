@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class PatientAppointmentsJPanel extends javax.swing.JPanel {
 
@@ -47,7 +47,7 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
         btnScheduleAppointment = new javax.swing.JButton();
         backBtn = new javax.swing.JButton();
 
-        rightJPanel.setBackground(new java.awt.Color(204, 255, 204));
+        rightJPanel.setBackground(new java.awt.Color(0, 105, 255));
 
         javax.swing.GroupLayout rightJPanelLayout = new javax.swing.GroupLayout(rightJPanel);
         rightJPanel.setLayout(rightJPanelLayout);
@@ -62,10 +62,10 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(rightJPanel);
 
-        jPanel1.setBackground(new java.awt.Color(172, 255, 172));
+        jPanel1.setBackground(new java.awt.Color(0, 105, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(194, 525));
 
-        btnUpcomingAppointments.setBackground(new java.awt.Color(98, 203, 182));
+        btnUpcomingAppointments.setBackground(new java.awt.Color(102, 255, 102));
         btnUpcomingAppointments.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         btnUpcomingAppointments.setText("Upcoming Appointments");
         btnUpcomingAppointments.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +74,7 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnScheduleAppointment.setBackground(new java.awt.Color(98, 203, 182));
+        btnScheduleAppointment.setBackground(new java.awt.Color(102, 255, 102));
         btnScheduleAppointment.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         btnScheduleAppointment.setText("Schedule Appointment");
         btnScheduleAppointment.addActionListener(new java.awt.event.ActionListener() {
@@ -123,7 +123,7 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jSplitPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1296, Short.MAX_VALUE)
+            .addComponent(jSplitPane1)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -22,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class ManageDoctorJPanel extends javax.swing.JPanel {
 
@@ -68,7 +68,7 @@ public class ManageDoctorJPanel extends javax.swing.JPanel {
         btnViewDoctor = new javax.swing.JButton();
         btnRefresfh = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N

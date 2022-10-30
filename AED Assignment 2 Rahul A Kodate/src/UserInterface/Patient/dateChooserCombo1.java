@@ -6,7 +6,7 @@ package UserInterface.Patient;
 
 /**
  *
- * @author moins
+ * @author rahulkodate
  */
 class dateChooserCombo1 {
 

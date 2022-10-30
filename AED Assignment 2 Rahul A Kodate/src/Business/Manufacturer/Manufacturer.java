@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class Manufacturer { 
     private String ManuName;

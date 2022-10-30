@@ -27,7 +27,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class AddSlotsJPanel extends javax.swing.JPanel {
 
@@ -64,7 +64,7 @@ public class AddSlotsJPanel extends javax.swing.JPanel {
         durationTxt = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 105, 255));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));

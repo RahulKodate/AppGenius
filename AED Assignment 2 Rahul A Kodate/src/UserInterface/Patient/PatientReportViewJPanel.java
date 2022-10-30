@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class PatientReportViewJPanel extends javax.swing.JPanel {
 
@@ -46,7 +46,7 @@ public class PatientReportViewJPanel extends javax.swing.JPanel {
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N

@@ -31,7 +31,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class CreateDoctorJPanel extends javax.swing.JPanel {
 
@@ -93,7 +93,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         communityNameComboBox = new javax.swing.JComboBox<>();
         lblCommunity = new javax.swing.JLabel();
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 204));
+        jPanel1.setBackground(new java.awt.Color(0, 105, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblCreateDoctor.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N

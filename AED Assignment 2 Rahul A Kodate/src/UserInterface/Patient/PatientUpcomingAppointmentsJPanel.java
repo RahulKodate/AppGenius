@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author shrutikasalian
+ * @author rahulkodate
  */
 public class PatientUpcomingAppointmentsJPanel extends javax.swing.JPanel {
     
@@ -93,7 +93,7 @@ public class PatientUpcomingAppointmentsJPanel extends javax.swing.JPanel {
         UpcomingAppointmentsJTable = new javax.swing.JTable();
         btnCancelAppointment = new javax.swing.JButton();
 
-        UpcomingAppointmentsJPanel.setBackground(new java.awt.Color(204, 255, 204));
+        UpcomingAppointmentsJPanel.setBackground(new java.awt.Color(0, 105, 255));
         UpcomingAppointmentsJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblUpcomingAppointments.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N

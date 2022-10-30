@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class SystemAdminHospitalPortalJPanel extends javax.swing.JPanel {
 
@@ -84,7 +84,7 @@ public class SystemAdminHospitalPortalJPanel extends javax.swing.JPanel {
         createHospitalBtn = new javax.swing.JButton();
         refreshBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         hospitalTable.setModel(new javax.swing.table.DefaultTableModel(

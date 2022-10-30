@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class ManufacturerDirectory { ArrayList<Manufacturer> manufacturerList ;
 

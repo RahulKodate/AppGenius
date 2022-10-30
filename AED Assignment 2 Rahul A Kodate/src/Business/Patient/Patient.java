@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author shrutikasalian
+ * @author rahulkodate
  */
 public class Patient {
     

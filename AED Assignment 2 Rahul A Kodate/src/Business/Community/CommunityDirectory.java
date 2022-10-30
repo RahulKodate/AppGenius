@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author moins
+ * @author rahulkodate
  */
 public class CommunityDirectory {
     

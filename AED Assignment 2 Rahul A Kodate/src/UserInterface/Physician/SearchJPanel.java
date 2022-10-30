@@ -22,7 +22,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author shrutikasalian
+ * @author rahulkodate
  */
 public class SearchJPanel extends javax.swing.JPanel {
 
@@ -93,7 +93,7 @@ public class SearchJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        leftJPanel.setBackground(new java.awt.Color(172, 255, 172));
+        leftJPanel.setBackground(new java.awt.Color(0, 105, 255));
         leftJPanel.setPreferredSize(new java.awt.Dimension(194, 525));
 
         backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
@@ -110,7 +110,7 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnPatientDetails.setBackground(new java.awt.Color(98, 203, 182));
+        btnPatientDetails.setBackground(new java.awt.Color(102, 255, 102));
         btnPatientDetails.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         btnPatientDetails.setText("Patient Details");
         btnPatientDetails.addActionListener(new java.awt.event.ActionListener() {
@@ -155,7 +155,7 @@ public class SearchJPanel extends javax.swing.JPanel {
 
         SearchJPanelSplitPane.setLeftComponent(leftJPanel);
 
-        rightJPanel.setBackground(new java.awt.Color(204, 255, 204));
+        rightJPanel.setBackground(new java.awt.Color(0, 105, 255));
 
         javax.swing.GroupLayout rightJPanelLayout = new javax.swing.GroupLayout(rightJPanel);
         rightJPanel.setLayout(rightJPanelLayout);

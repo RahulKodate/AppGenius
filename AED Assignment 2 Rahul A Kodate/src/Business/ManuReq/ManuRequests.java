@@ -7,7 +7,7 @@ package Business.ManuReq;
 
 /**
  *
- * @author srushtidesai
+ * @author rahulkodate
  */
 public class ManuRequests {
     

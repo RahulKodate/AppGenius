@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author moins
+ * @author rahulkodate
  */
 public class CreateCommunity extends javax.swing.JPanel {
 
@@ -52,7 +52,7 @@ public class CreateCommunity extends javax.swing.JPanel {
         lblHouse = new javax.swing.JLabel();
         txtHouse = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
 
         jLabel1.setText("Community:");
 

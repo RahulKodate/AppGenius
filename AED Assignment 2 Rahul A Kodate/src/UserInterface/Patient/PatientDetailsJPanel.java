@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author rahulkodate
  */
 public class PatientDetailsJPanel extends javax.swing.JPanel {
     
@@ -99,7 +99,7 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         lblHeartRate = new javax.swing.JLabel();
         lblTemperature = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         add(hospitalTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 70, 382, -1));
         add(DoctorTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, 382, -1));
