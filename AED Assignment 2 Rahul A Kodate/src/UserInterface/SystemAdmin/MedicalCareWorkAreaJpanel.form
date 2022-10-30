@@ -63,7 +63,7 @@
               <Color blue="66" green="ff" red="66" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Lucida Grande" size="13" style="1"/>
+              <Font name="AppleMyungjo" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Manage Hospital "/>
           </Properties>
@@ -82,7 +82,7 @@
               <Color blue="66" green="ff" red="66" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Lucida Grande" size="13" style="1"/>
+              <Font name="AppleMyungjo" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Manage Doctor"/>
           </Properties>
@@ -101,7 +101,7 @@
               <Color blue="66" green="ff" red="66" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Lucida Grande" size="13" style="1"/>
+              <Font name="AppleMyungjo" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Manage Community"/>
           </Properties>
@@ -120,7 +120,7 @@
               <Color blue="66" green="ff" red="66" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Lucida Grande" size="13" style="1"/>
+              <Font name="AppleMyungjo" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Manage Patient"/>
           </Properties>

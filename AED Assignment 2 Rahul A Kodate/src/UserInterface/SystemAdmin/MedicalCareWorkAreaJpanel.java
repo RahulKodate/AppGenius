@@ -64,7 +64,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         leftJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         hospitalPortalBtn.setBackground(new java.awt.Color(102, 255, 102));
-        hospitalPortalBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        hospitalPortalBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         hospitalPortalBtn.setText("Manage Hospital ");
         hospitalPortalBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,7 +74,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         leftJPanel.add(hospitalPortalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 200, 40));
 
         manageDoctor.setBackground(new java.awt.Color(102, 255, 102));
-        manageDoctor.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        manageDoctor.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         manageDoctor.setText("Manage Doctor");
         manageDoctor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -84,7 +84,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         leftJPanel.add(manageDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 200, 40));
 
         btnCommunityAdmin.setBackground(new java.awt.Color(102, 255, 102));
-        btnCommunityAdmin.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnCommunityAdmin.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnCommunityAdmin.setText("Manage Community");
         btnCommunityAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,7 +94,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         leftJPanel.add(btnCommunityAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 200, 40));
 
         btnPatient.setBackground(new java.awt.Color(102, 255, 102));
-        btnPatient.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnPatient.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnPatient.setText("Manage Patient");
         btnPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

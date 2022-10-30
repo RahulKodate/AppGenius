@@ -39,10 +39,10 @@ public class CreateAdminJPanel extends javax.swing.JPanel {
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("ADD ADMIN");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 250, 40));
+        jLabel5.setText("Insert Admin Details");
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 50, 350, 40));
         add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 210, 220, -1));
 
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -71,7 +71,7 @@ public class CreateAdminJPanel extends javax.swing.JPanel {
         });
         add(hospname, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, 220, -1));
 
-        submitbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        submitbtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         submitbtn.setText("Submit");
         submitbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

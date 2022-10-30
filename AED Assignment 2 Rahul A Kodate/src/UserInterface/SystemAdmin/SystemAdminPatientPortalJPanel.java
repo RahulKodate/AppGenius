@@ -83,7 +83,7 @@ public class SystemAdminPatientPortalJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("PATIENT'S PORTAL");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 80, -1, -1));
@@ -103,7 +103,7 @@ public class SystemAdminPatientPortalJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 150, 820, 230));
 
-        deleteBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        deleteBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         deleteBtn.setText("Delete ");
         deleteBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,7 +112,7 @@ public class SystemAdminPatientPortalJPanel extends javax.swing.JPanel {
         });
         add(deleteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 500, 230, 40));
 
-        viewPatientBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        viewPatientBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         viewPatientBtn.setText("View ");
         viewPatientBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,7 +121,7 @@ public class SystemAdminPatientPortalJPanel extends javax.swing.JPanel {
         });
         add(viewPatientBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 550, 230, 40));
 
-        createPatientBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        createPatientBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         createPatientBtn.setText("Add");
         createPatientBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,7 +138,7 @@ public class SystemAdminPatientPortalJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 90, 30, 30));
 
-        refreshBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        refreshBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         refreshBtn.setText("Refresh");
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

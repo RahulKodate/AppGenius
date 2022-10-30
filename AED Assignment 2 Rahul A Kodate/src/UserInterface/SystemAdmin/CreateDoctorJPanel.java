@@ -96,8 +96,8 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         jPanel1.setBackground(new java.awt.Color(0, 105, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        lblCreateDoctor.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
-        lblCreateDoctor.setText("CREATE DOCTOR");
+        lblCreateDoctor.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
+        lblCreateDoctor.setText("Insert Doctor Details");
         jPanel1.add(lblCreateDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 40, 350, 42));
 
         lblHospital.setText("Hospital:");
@@ -138,7 +138,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         jPanel1.add(lblLicenseNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 330, -1, -1));
         jPanel1.add(txtLicenseNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 320, 152, -1));
 
-        btnBack.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnBack.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnBack.setText("< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,7 +147,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 120, 30));
 
-        btnSave.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnSave.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

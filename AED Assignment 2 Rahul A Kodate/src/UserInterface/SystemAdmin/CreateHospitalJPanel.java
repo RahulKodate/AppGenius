@@ -114,11 +114,11 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
         jLabel7.setText("Admin Name:");
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 400, 90, 20));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("AppleMyungjo", 1, 24)); // NOI18N
         jLabel1.setText("SIGN UP NEW HOSPITAL");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 110, -1, -1));
 
-        btnSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnSave.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
