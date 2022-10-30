@@ -27,6 +27,7 @@ public class SystemAdminHospitalPortalJPanel extends javax.swing.JPanel {
     private JPanel CardLayoutJPanel;
     private Ecosystem business;
     private UserAccount account;
+    Community community;
     /**
      * Creates new form SystemAdminHospitalPortalJPanel
      */
@@ -35,13 +36,15 @@ public class SystemAdminHospitalPortalJPanel extends javax.swing.JPanel {
         this.CardLayoutJPanel = CardLayoutJPanel;
         this.business = business;
         this.account=account;
+        community = (Community) this.account.getDetails();
         
-         populateTable();
+         this.populateTable();
     }
 
     public void populateTable() {
-        // populate all patients in patient directory
-        ArrayList<Hospital> hospitalList = business.getHospitalDirectory().getHospitalList();
+        // populate all hospitals in hospital directory
+        
+        ArrayList<Hospital>hospitalList = community.getHospitalDirectory();
     
         int rowCount = hospitalTable.getRowCount();
         DefaultTableModel model = (DefaultTableModel)hospitalTable.getModel();

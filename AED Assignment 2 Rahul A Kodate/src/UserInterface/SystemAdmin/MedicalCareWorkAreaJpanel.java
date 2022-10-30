@@ -52,7 +52,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         hospitalPortalBtn = new javax.swing.JButton();
         manageDoctor = new javax.swing.JButton();
         btnCommunityAdmin = new javax.swing.JButton();
-        btnCityAdmin = new javax.swing.JButton();
+        btnPatient = new javax.swing.JButton();
         rightJPanel = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
 
@@ -91,17 +91,17 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
                 btnCommunityAdminActionPerformed(evt);
             }
         });
-        leftJPanel.add(btnCommunityAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, 200, 40));
+        leftJPanel.add(btnCommunityAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 200, 40));
 
-        btnCityAdmin.setBackground(new java.awt.Color(98, 203, 182));
-        btnCityAdmin.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        btnCityAdmin.setText("Manage City");
-        btnCityAdmin.addActionListener(new java.awt.event.ActionListener() {
+        btnPatient.setBackground(new java.awt.Color(98, 203, 182));
+        btnPatient.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnPatient.setText("Manage Patient");
+        btnPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCityAdminActionPerformed(evt);
+                btnPatientActionPerformed(evt);
             }
         });
-        leftJPanel.add(btnCityAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 200, 40));
+        leftJPanel.add(btnPatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, 200, 40));
 
         rightJPanel.setBackground(new java.awt.Color(204, 255, 204));
         rightJPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
@@ -139,8 +139,8 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
 
     private void manageDoctorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageDoctorActionPerformed
         // TODO add your handling code here:
-        CreateDoctorJPanel createDoctorJPanel = new CreateDoctorJPanel(rightJPanel, business);
-        rightJPanel.add("createDoctorJPanel", createDoctorJPanel);
+        ManageDoctorJPanel manageDoctorJPanel = new ManageDoctorJPanel(rightJPanel, business);
+        rightJPanel.add("createDoctorJPanel", manageDoctorJPanel);
         CardLayout layout = (CardLayout) rightJPanel.getLayout();
         layout.next(rightJPanel);
     }//GEN-LAST:event_manageDoctorActionPerformed
@@ -153,18 +153,18 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         layout.next(rightJPanel);
     }//GEN-LAST:event_btnCommunityAdminActionPerformed
 
-    private void btnCityAdminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCityAdminActionPerformed
+    private void btnPatientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPatientActionPerformed
         // TODO add your handling code here:
-        AddCityJPanel cwjp = new AddCityJPanel(rightJPanel,cityDirectory);
-        rightJPanel.add("CreateCity", cwjp);
-        CardLayout layout = (CardLayout) rightJPanel.getLayout();
+        CreatePatientJPanel createPatientJPanel = new CreatePatientJPanel(rightJPanel, business);
+        rightJPanel.add("CreateCommunity", createPatientJPanel);
+        CardLayout layout = (CardLayout)rightJPanel.getLayout();
         layout.next(rightJPanel);
-    }//GEN-LAST:event_btnCityAdminActionPerformed
+    }//GEN-LAST:event_btnPatientActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCityAdmin;
     private javax.swing.JButton btnCommunityAdmin;
+    private javax.swing.JButton btnPatient;
     private javax.swing.JButton hospitalPortalBtn;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel leftJPanel;

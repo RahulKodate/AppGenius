@@ -65,7 +65,6 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         appointmentBtn = new javax.swing.JButton();
         personalInfoBtn1 = new javax.swing.JButton();
         rightJPanel = new javax.swing.JPanel();
-        systemAdminPanel = new javax.swing.JPanel();
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
@@ -112,22 +111,8 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         leftJPanel.add(personalInfoBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 200, 40));
 
         rightJPanel.setBackground(new java.awt.Color(204, 255, 204));
-        rightJPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
+        rightJPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
         rightJPanel.setLayout(new java.awt.CardLayout());
-
-        systemAdminPanel.setBackground(new java.awt.Color(204, 255, 204));
-        systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
-
-        javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
-        systemAdminPanel.setLayout(systemAdminPanelLayout);
-        systemAdminPanelLayout.setHorizontalGroup(
-            systemAdminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        systemAdminPanelLayout.setVerticalGroup(
-            systemAdminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -136,20 +121,16 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(leftJPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(systemAdminPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 1299, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(rightJPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 1303, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addComponent(rightJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1508, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(rightJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 900, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(leftJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 894, Short.MAX_VALUE)
+                    .addComponent(leftJPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(systemAdminPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 776, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(rightJPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 908, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -187,6 +168,5 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
     private javax.swing.JPanel leftJPanel;
     private javax.swing.JButton personalInfoBtn1;
     private javax.swing.JPanel rightJPanel;
-    private javax.swing.JPanel systemAdminPanel;
     // End of variables declaration//GEN-END:variables
 }

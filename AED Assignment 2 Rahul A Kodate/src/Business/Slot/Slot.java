@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.Date;
 /**
  *
- * @author rahulkodate
+ * @author srushtidesai
  */
 public class Slot {
     

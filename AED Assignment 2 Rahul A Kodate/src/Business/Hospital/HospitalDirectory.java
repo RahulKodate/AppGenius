@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author rahulkodate
+ * @author shrutikasalian
  */
 public class HospitalDirectory {
     

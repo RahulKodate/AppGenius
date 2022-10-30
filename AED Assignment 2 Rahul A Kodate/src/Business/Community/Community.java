@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author rahulkodate
+ * @author moins
  */
 public class Community {
  
@@ -86,6 +86,8 @@ public class Community {
         }
         return null;
     }
+    
+    
     
     
      public Hospital addHospital(Hospital h){

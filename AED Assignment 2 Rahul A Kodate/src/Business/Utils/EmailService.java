@@ -21,7 +21,7 @@ import java.util.Properties;
 
 /**
  *
- * @author rahulkodate
+ * @author Saad Ghojaria
  */
 public class EmailService {
     

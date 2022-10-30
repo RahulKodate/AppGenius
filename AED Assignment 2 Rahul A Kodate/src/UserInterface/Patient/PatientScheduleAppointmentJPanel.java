@@ -43,14 +43,12 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         this.CardLayoutJPanel = CardLayoutJPanel;
         this.account=account;
         this.business = business;
-        populateHopitalComboBox();
+        ArrayList<Community> communityList = this.business.getCommunityDirectory().getCommunityList();
+        Community[] comboBoxModel1 = communityList.toArray(new Community[0]);
+        communityComboBox.setModel(new DefaultComboBoxModel<Community>(comboBoxModel1));
     }
     
-    public void populateHopitalComboBox() {
-        ArrayList<Hospital> hospitalList = business.getHospitalDirectory().getHospitalList();
-        Hospital[] comboBoxModel1 = hospitalList.toArray(new Hospital[0]);
-        hospitalNameComboBox.setModel(new DefaultComboBoxModel<Hospital>(comboBoxModel1));
-    }
+   
     
     public void populateTable(ArrayList<PhysicianRequest> appointments) {
         // populate all patients in patient directory
@@ -59,12 +57,13 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         for(int i=rowCount-1;i>=0;i--) {
             model.removeRow(i);
         }
+        Community selectedCmt = (Community) communityComboBox.getSelectedItem();
         for(PhysicianRequest pr: appointments) {
             Object row[] = new Object[4];
             Doctor doctor = (Doctor) pr.getReceiver().getDetails();
             row[0] = doctor.getName();
             row[1] = doctor.getHospital().getCommunity().getName();
-            row[2] = doctor.getCommunity().getName();
+            row[2] = selectedCmt.getName();
             row[3] = pr.getTime();
             model.addRow(row);
         }
@@ -73,7 +72,7 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        physicianNameCombo = new javax.swing.JComboBox<>();
+        doctorNameCombo = new javax.swing.JComboBox<>();
         lblHospital = new javax.swing.JLabel();
         searchByHospitalName = new javax.swing.JButton();
         lblPhysician = new javax.swing.JLabel();
@@ -89,12 +88,12 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(204, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        physicianNameCombo.addActionListener(new java.awt.event.ActionListener() {
+        doctorNameCombo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                physicianNameComboActionPerformed(evt);
+                doctorNameComboActionPerformed(evt);
             }
         });
-        add(physicianNameCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 150, 200, -1));
+        add(doctorNameCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 150, 200, -1));
 
         lblHospital.setText("Hospital: ");
         add(lblHospital, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, 124, 27));
@@ -157,17 +156,17 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         add(dateChooserCombo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 200, 200, -1));
     }// </editor-fold>//GEN-END:initComponents
 
-    private void physicianNameComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_physicianNameComboActionPerformed
+    private void doctorNameComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doctorNameComboActionPerformed
         
-    }//GEN-LAST:event_physicianNameComboActionPerformed
+    }//GEN-LAST:event_doctorNameComboActionPerformed
 
     private void searchByHospitalNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchByHospitalNameActionPerformed
         // TODO add your handling code here:
         
         
         Community selectedCmt = (Community) communityComboBox.getSelectedItem();
-       Hospital selectedHospital = (Hospital) hospitalNameComboBox.getSelectedItem();
-        Doctor selectedDoctor = (Doctor) physicianNameCombo.getSelectedItem();
+        Hospital selectedHospital = (Hospital) hospitalNameComboBox.getSelectedItem();
+        Doctor selectedDoctor = (Doctor) doctorNameCombo.getSelectedItem();
         String selectedDate = dateChooserCombo1.getSelectedDate().toString();
         if(selectedHospital == null || selectedCmt == null ) 
         {
@@ -201,6 +200,7 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         Hospital selectedHospital = (Hospital) hospitalNameComboBox.getSelectedItem();
         ArrayList<Doctor> doctorList = selectedHospital.getDoctorDirectory();
         Doctor[] comboBoxModel2 = doctorList.toArray(new Doctor[0]);
+        doctorNameCombo.setModel(new DefaultComboBoxModel<Doctor>(comboBoxModel2));
 //        ArrayList<Department> deptList = selectedHospital.getDepartmentDirectory();
 //        Department[] comboBoxModel = deptList.toArray(new Department[0]);
     //   System.out.print(deptList.toArray());
@@ -212,7 +212,11 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
     private void communityComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_communityComboBoxActionPerformed
         // TODO add your handling code here:
         
-        Community selectedCmt = (Community) communityComboBox.getSelectedItem();
+        Community selectedCommunity = (Community) communityComboBox.getSelectedItem();
+        ArrayList <Hospital> hospList = selectedCommunity.getHospitalDirectory();
+        //System.out.println(hospList);
+        Hospital[] comboBoxModel = hospList.toArray(new Hospital[0]);
+        hospitalNameComboBox.setModel(new DefaultComboBoxModel<Hospital>(comboBoxModel));
         
         
     }//GEN-LAST:event_communityComboBoxActionPerformed
@@ -230,7 +234,7 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         Community selectedCmt = (Community) communityComboBox.getSelectedItem();
         Hospital selectedHospital = (Hospital) hospitalNameComboBox.getSelectedItem();
         
-        Doctor selectedDoctor = (Doctor) physicianNameCombo.getSelectedItem();
+        Doctor selectedDoctor = (Doctor) doctorNameCombo.getSelectedItem();
         //String selectedDate = dateChooserCombo1.getSelectedDate().toString();
         
         String timeSlot = (String) jTable1.getValueAt(selectedRow, 3);
@@ -294,6 +298,7 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnBook;
     private javax.swing.JComboBox<Community> communityComboBox;
     private datechooser.beans.DateChooserCombo dateChooserCombo1;
+    private javax.swing.JComboBox<Doctor> doctorNameCombo;
     private javax.swing.JComboBox<Hospital> hospitalNameComboBox;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
@@ -301,7 +306,6 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel lblDepartment;
     private javax.swing.JLabel lblHospital;
     private javax.swing.JLabel lblPhysician;
-    private javax.swing.JComboBox<Doctor> physicianNameCombo;
     private javax.swing.JButton searchByHospitalName;
     // End of variables declaration//GEN-END:variables
 }

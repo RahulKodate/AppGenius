@@ -12,7 +12,7 @@ import Business.city.CityDirectory;
 
 /**
  *
- * @author rahulkodate
+ * @author kapil
  */
 public class AddCityJPanel extends javax.swing.JPanel {
 

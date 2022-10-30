@@ -194,14 +194,16 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 955, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 943, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(128, 128, 128)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 509, Short.MAX_VALUE)
-                .addContainerGap())
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 637, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -215,7 +217,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         Component[] componentArray = CardLayoutJPanel.getComponents();
         Component component = componentArray[componentArray.length - 1];
         
-        ManagePhysicianJPanel managePhysicianJPanel = (ManagePhysicianJPanel) component;
+        ManageDoctorJPanel manageDoctorJPanel = (ManageDoctorJPanel) component;
      //   managePhysicianJPanel.populateTable();
 
         CardLayout layout = (CardLayout) CardLayoutJPanel.getLayout();
@@ -236,6 +238,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         String gender = txtGender.getText();
         String licenseNo= txtLicenseNumber.getText();
         
+        Community selectedCommunity = (Community) communityNameComboBox.getSelectedItem();
         Hospital selectedHospital = (Hospital) hospitalComboBox.getSelectedItem();
         
         newDoctor.setHospital(selectedHospital);
@@ -264,8 +267,8 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
        else{
             
             
-          //  Doctor doctor = hospital.getDepartment(selectedDepartment.getDepartmentId()).addDoctor(newDoctor);
-          //  UserAccount account = business.getUserAccountDirectory().createUserAccount(username, password, doctor.getDoctorId(), new PhysicianRole(), doctor);
+              Doctor doctor = selectedCommunity.getHospital(selectedHospital.getHospitalId()).addDoctor(newDoctor);
+              UserAccount account = business.getUserAccountDirectory().createUserAccount(username, password, doctor.getDoctorId(), new PhysicianRole(), doctor);
         
             JOptionPane.showMessageDialog(null, "New Physician added");
         }
@@ -309,7 +312,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         // TODO add your handling code here
         Community selectedCommunity = (Community) communityNameComboBox.getSelectedItem();
         ArrayList <Hospital> hospList = selectedCommunity.getHospitalDirectory();
-        System.out.println(hospList);
+        //System.out.println(hospList);
         Hospital[] comboBoxModel = hospList.toArray(new Hospital[0]);
         hospitalComboBox.setModel(new DefaultComboBoxModel<Hospital>(comboBoxModel));
 

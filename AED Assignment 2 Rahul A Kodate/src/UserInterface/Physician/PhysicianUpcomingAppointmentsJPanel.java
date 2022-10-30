@@ -196,7 +196,7 @@ public class PhysicianUpcomingAppointmentsJPanel extends javax.swing.JPanel {
         Patient  p = (Patient) request.getSender().getDetails();
         Doctor d = (Doctor) account.getDetails();
         
-        PatientDetails newDetails = new PatientDetails(d, new Date(), "");
+        PatientDetails newDetails = new PatientDetails(d, new Date(), "", "", "", "");
         p.getPatientDetails().add(newDetails);
         
         PatientDetailsJPanel patientDetailsJPanel = new PatientDetailsJPanel(CardLayoutJPanel, newDetails, this.account);

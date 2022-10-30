@@ -17,9 +17,11 @@ import java.util.ArrayList;
 public class CommunityDirectory {
     
     private ArrayList<Community> communityList;
+    
 
     public CommunityDirectory(){
         communityList = new ArrayList<Community>();
+        
     }
 
     public ArrayList<Community> getCommunityList() {
@@ -30,6 +32,8 @@ public class CommunityDirectory {
         this.communityList = communityDirectory;
     }
 
+    
+    
     public Community addCommunity(Community c){
         c.setCommunityId("C"+(communityList.size()+1));
         communityList.add(c);

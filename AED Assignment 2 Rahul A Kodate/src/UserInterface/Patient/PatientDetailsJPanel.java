@@ -45,18 +45,29 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         }
         
         
-        this.dateTxt.setText(details.getDate().toString());
+         this.dateTxt.setText(details.getDate().toString());
          this.hospitalTxt.setText((details.getDoctor() != null ? details.getDoctor().getHospital().getCommunity().getName() :"Hospital Dummy" ));
       
         this.DoctorTxt.setText((details.getDoctor() != null ) ? details.getDoctor().getName() : "Doctor Dummy");
         this.notesTxt.setText(details.getNotes());
+        this.txtPulse.setText(details.getPulse());
+        this.txtTemperature.setText(details.getTemperature());
+        this.txtBloodPressure.setText(details.getBloodPressure());
+        
         
         this.notesTxt.setLineWrap(true);
+//        this.txtTemperature.setLineWrap(true);
+//        this.txtPulse.setEnabled(true);
+//        this.txtBloodPressure.setEnabled(true);
         
         this.dateTxt.setEnabled(false);
         this.hospitalTxt.setEnabled(false);
         this.DoctorTxt.setEnabled(false);
         this.notesTxt.setEnabled(false);
+        this.txtTemperature.setEnabled(false);
+        this.txtPulse.setEnabled(false);
+        this.txtBloodPressure.setEnabled(false);
+        
         
     }
 
@@ -81,6 +92,12 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         backBtn = new javax.swing.JButton();
         addNotesBtn = new javax.swing.JButton();
         saveBtn = new javax.swing.JButton();
+        txtBloodPressure = new javax.swing.JTextField();
+        txtPulse = new javax.swing.JTextField();
+        txtTemperature = new javax.swing.JTextField();
+        lblPulse = new javax.swing.JLabel();
+        lblHeartRate = new javax.swing.JLabel();
+        lblTemperature = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -92,19 +109,19 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         notesTxt.setRows(5);
         jScrollPane1.setViewportView(notesTxt);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 382, 214));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 330, 380, 90));
 
         jLabel1.setText("Hospital: ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 70, 50, -1));
 
         jLabel2.setText("Physician: ");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 120, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, -1, -1));
 
         jLabel3.setText("Date: ");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, -1, -1));
 
         jLabel4.setText("Notes: ");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 190, -1, -1));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 330, -1, -1));
 
         backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         backBtn.setText("< Back");
@@ -132,6 +149,19 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
             }
         });
         add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(495, 430, 100, -1));
+        add(txtBloodPressure, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 380, -1));
+        add(txtPulse, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 230, 380, -1));
+        add(txtTemperature, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 270, 380, -1));
+        txtTemperature.getAccessibleContext().setAccessibleParent(jScrollPane1);
+
+        lblPulse.setText("Pulse:");
+        add(lblPulse, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 190, -1, -1));
+
+        lblHeartRate.setText("Heart Rate:");
+        add(lblHeartRate, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 230, -1, -1));
+
+        lblTemperature.setText("Temperature:");
+        add(lblTemperature, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 270, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
@@ -144,6 +174,9 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
     private void addNotesBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addNotesBtnActionPerformed
         // TODO add your handling code here:
         notesTxt.setEnabled(true);
+        txtTemperature.setEnabled(true);
+        txtPulse.setEnabled(true);
+        txtBloodPressure.setEnabled(true);
         saveBtn.setEnabled(true);
         addNotesBtn.setEnabled(false);
     }//GEN-LAST:event_addNotesBtnActionPerformed
@@ -152,10 +185,17 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
         
         notesTxt.setEnabled(false);
+        txtTemperature.setEnabled(false);
+        txtPulse.setEnabled(false);
+        txtBloodPressure.setEnabled(false);
+ 
         saveBtn.setEnabled(false);
         addNotesBtn.setEnabled(true);
         
         this.details.setNotes(notesTxt.getText());
+        this.details.setPulse(txtPulse.getText());
+        this.details.setTemperature(txtTemperature.getText());
+        this.details.setBloodPressure(txtBloodPressure.getText());
     }//GEN-LAST:event_saveBtnActionPerformed
 
 
@@ -170,8 +210,14 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblHeartRate;
+    private javax.swing.JLabel lblPulse;
+    private javax.swing.JLabel lblTemperature;
     private javax.swing.JTextArea notesTxt;
     private javax.swing.JButton saveBtn;
+    private javax.swing.JTextField txtBloodPressure;
+    private javax.swing.JTextField txtPulse;
+    private javax.swing.JTextField txtTemperature;
     // End of variables declaration//GEN-END:variables
 
 }

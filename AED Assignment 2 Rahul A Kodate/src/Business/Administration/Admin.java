@@ -6,7 +6,7 @@ package Business.Administration;
 
 /**
  *
- * @author rahulkodate
+ * @author Saad Ghojaria
  */
 public class Admin {
     

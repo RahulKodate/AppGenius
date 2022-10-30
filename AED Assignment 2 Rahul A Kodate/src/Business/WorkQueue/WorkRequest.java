@@ -12,7 +12,7 @@ import java.util.Date;
 
 /**
  *
- * @author rahulkodate
+ * @author shrutikasalian
  */
 public class WorkRequest {
     

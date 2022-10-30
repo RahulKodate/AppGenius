@@ -20,6 +20,7 @@ import java.util.regex.Pattern;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.table.DefaultTableModel;
 
 /**
  *
@@ -39,7 +40,7 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
         this.business =business;
         this.account=account;
 //        this.community = (Community) this.account.getDetails();
-       
+        
         
         
         ArrayList<Community> communityList = this.business.getCommunityDirectory().getCommunityList();
@@ -48,7 +49,7 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
         communityNameComboBox.setModel(new DefaultComboBoxModel<Community>(comboBoxModel1));
 //        System.out.print(communityList.toArray());
     }
-
+     
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -86,36 +87,36 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
                 adminTxtActionPerformed(evt);
             }
         });
-        add(adminTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 400, 221, -1));
-        add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 280, 221, -1));
-        add(contactNumberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 320, 221, -1));
+        add(adminTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 400, 221, -1));
+        add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 280, 221, -1));
+        add(contactNumberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 320, 221, -1));
 
         addressTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addressTxtActionPerformed(evt);
             }
         });
-        add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 360, 221, -1));
+        add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 360, 221, -1));
 
         jLabel8.setText("License Number:");
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 440, -1, 20));
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 440, -1, 20));
 
         jLabel2.setText("Hospital Name:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 280, -1, 20));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 280, -1, 20));
 
         jLabel4.setText("Address:");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 360, -1, 20));
-        add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 440, 221, -1));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 360, -1, 20));
+        add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 440, 221, -1));
 
         jLabel6.setText("Contact number:");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 320, -1, 20));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 320, -1, 20));
 
         jLabel7.setText("Admin Name:");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 400, 90, 20));
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 400, 90, 20));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
         jLabel1.setText("SIGN UP NEW HOSPITAL");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 110, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 110, -1, -1));
 
         btnSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         btnSave.setText("Save");
@@ -124,7 +125,7 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
                 btnSaveActionPerformed(evt);
             }
         });
-        add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(565, 480, 160, -1));
+        add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 480, 160, -1));
 
         btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/icons8-back-64.png"))); // NOI18N
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -132,25 +133,25 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 110, 50, 30));
-        add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 240, 221, -1));
-        add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 200, 221, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 110, 50, 30));
+        add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 240, 221, -1));
+        add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 200, 221, -1));
 
         jLabel3.setText("Password:");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 240, -1, 20));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 240, -1, 20));
 
         jLabel5.setText("Username:");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, -1, 20));
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 200, -1, 20));
 
         communityNameComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 communityNameComboBoxActionPerformed(evt);
             }
         });
-        add(communityNameComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 160, 220, -1));
+        add(communityNameComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 160, 220, -1));
 
         lblCommunity.setText("Community:");
-        add(lblCommunity, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 160, -1, 20));
+        add(lblCommunity, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 160, -1, 20));
     }// </editor-fold>//GEN-END:initComponents
 
     private void addressTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addressTxtActionPerformed
@@ -171,6 +172,9 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
         String adminName = adminTxt.getText();
         String licenseNo= licenseTxt.getText();
      
+        Community selectedCommunity = (Community) communityNameComboBox.getSelectedItem();
+        
+        newHospital.setCommunity(selectedCommunity);
         newHospital.setName(hospitalName);
         newHospital.setAddress(address);
         newHospital.setAdminName(adminName);
@@ -192,7 +196,9 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "Username already exists!");
         }
        else{
-            Hospital hospital = business.getHospitalDirectory().addHospital(newHospital);
+            
+            Hospital hospital = business.getCommunityDirectory().getCommunity(selectedCommunity.getCommunityId()).addHospital(newHospital);
+            //Hospital hospital = business.getHospitalDirectory().addHospital(newHospital);
             UserAccount account = business.getUserAccountDirectory().createUserAccount(username, password, hospital.getHospitalId(), new HospitalRole(), hospital);
             JOptionPane.showMessageDialog(null, "New Hospital added");
         }
@@ -213,6 +219,7 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
         
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
         // TODO add your handling code here:
+       
         CardLayoutJPanel.remove(this);
         Component[] componentArray = CardLayoutJPanel.getComponents();
         Component component = componentArray[componentArray.length - 1];

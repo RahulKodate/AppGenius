@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author rahulkodate
+ * @author moins
  */
 public class CommunityAdminJPanel extends javax.swing.JPanel {
 

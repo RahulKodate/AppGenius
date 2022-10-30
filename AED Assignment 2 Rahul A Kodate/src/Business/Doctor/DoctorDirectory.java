@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author rahulkodate
+ * @author Saad Ghojaria
  */
 public class DoctorDirectory {
     

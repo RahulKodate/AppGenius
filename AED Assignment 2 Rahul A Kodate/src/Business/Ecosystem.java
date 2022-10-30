@@ -6,6 +6,7 @@
 package Business;
 
 
+import Business.Community.Community;
 import Business.Community.CommunityDirectory;
 import Business.Doctor.DoctorDirectory;
 import Business.Hospital.HospitalDirectory;
@@ -20,7 +21,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author rahulkodate
+ * @author Saad Ghojaria
  */
 public class Ecosystem extends HealthCarePortal {
     
@@ -29,7 +30,7 @@ public class Ecosystem extends HealthCarePortal {
     private HospitalDirectory hospitalDirectory = new HospitalDirectory();
     private PatientDirectory patientDirectory = new PatientDirectory();
     private DoctorDirectory doctorDirectory = new DoctorDirectory();
-    
+    //private Community community = new Community();
     
     
     
@@ -44,7 +45,34 @@ public class Ecosystem extends HealthCarePortal {
         }
         return business;
     }
-     
+
+    public static Ecosystem getBusiness() {
+        return business;
+    }
+
+    public static void setBusiness(Ecosystem business) {
+        Ecosystem.business = business;
+    }
+
+//    public Community getCommunity() {
+//        return community;
+//    }
+    
+   
+    
+//    public Department getDepartment(String id){
+//        for(Department department: departmentDirectory){
+//            if(department.getDepartmentId().equalsIgnoreCase(id)){
+//                return department;
+//            }
+//        }
+//        return null;
+//    }
+
+//    public void setCommunity(Community community) {
+//        this.community = community;
+//    }
+//     
     public CommunityDirectory getCommunityDirectory() {
         return communityDirectory;
     }
@@ -70,6 +98,9 @@ public class Ecosystem extends HealthCarePortal {
     }
    
     
+     
+     
+    
     @Override
     public ArrayList<Role> getSupportedRole() {
         ArrayList<Role> roleList=new ArrayList<Role>();
@@ -84,5 +115,14 @@ public class Ecosystem extends HealthCarePortal {
     public boolean checkIfUserIsUnique(String userName){
        return false;
     }
+
+//     public Community getCommunity(String id){
+//        for(Community comm: communityDirectory){
+//            if(community.getCommunityId().equalsIgnoreCase(id)){
+//                return comm;
+//            }
+//        }
+//        return null;
+//    }
 
 }

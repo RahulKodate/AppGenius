@@ -8,7 +8,7 @@ import Business.Community.CommunityDirectory;
 
 /**
  *
- * @author rahulkodate
+ * @author kapil
  */
 public class City {
 

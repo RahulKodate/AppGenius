@@ -8,7 +8,7 @@ import Business.UserAccount.UserAccount;
 import java.util.ArrayList;
 /**
  *
- * @author rahulkodate
+ * @author Saad Ghojaria
  */
 public class AdminDirectory {
     private ArrayList<Admin> adminDirectory;
