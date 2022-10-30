@@ -66,7 +66,7 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
         leftJPanel.setBackground(new java.awt.Color(0, 105, 255));
 
         UpcomingAppointmentBtn.setBackground(new java.awt.Color(102, 255, 102));
-        UpcomingAppointmentBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        UpcomingAppointmentBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         UpcomingAppointmentBtn.setText("Upcoming Appointments");
         UpcomingAppointmentBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,7 +75,7 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
         });
 
         ScheduleAppointmentBtn.setBackground(new java.awt.Color(102, 255, 102));
-        ScheduleAppointmentBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        ScheduleAppointmentBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         ScheduleAppointmentBtn.setText("Pending Approvals");
         ScheduleAppointmentBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,7 +83,7 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
             }
         });
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         backBtn.setText("< Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,7 +112,7 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
                 .addComponent(UpcomingAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(ScheduleAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(282, Short.MAX_VALUE))
+                .addContainerGap(280, Short.MAX_VALUE))
         );
 
         jSplitPane1.setLeftComponent(leftJPanel);

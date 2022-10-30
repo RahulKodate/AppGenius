@@ -91,7 +91,7 @@
             <Component class="javax.swing.JButton" name="patientDetails">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Lucida Grande" size="13" style="3"/>
+                  <Font name="AppleMyungjo" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Patient Details"/>
               </Properties>
@@ -107,7 +107,7 @@
             <Component class="javax.swing.JButton" name="backBtn">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Lucida Grande" size="13" style="3"/>
+                  <Font name="AppleMyungjo" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt; Back"/>
               </Properties>

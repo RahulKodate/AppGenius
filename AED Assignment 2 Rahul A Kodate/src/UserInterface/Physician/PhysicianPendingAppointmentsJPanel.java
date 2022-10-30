@@ -96,7 +96,7 @@ public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
 
         PendingApprovalsJPanel.setBackground(new java.awt.Color(0, 105, 255));
 
-        lblPendingApprovals.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        lblPendingApprovals.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         lblPendingApprovals.setForeground(new java.awt.Color(255, 255, 255));
         lblPendingApprovals.setText("PENDING APPROVALS");
 
@@ -113,7 +113,7 @@ public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
         ));
         jScrollPane4.setViewportView(PendingApprovalsJTable);
 
-        btnAccept.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnAccept.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnAccept.setText("Accept");
         btnAccept.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,7 +121,7 @@ public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDecline.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnDecline.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnDecline.setText("Decline");
         btnDecline.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,7 +158,7 @@ public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
                 .addGroup(PendingApprovalsJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnDecline)
                     .addComponent(btnAccept))
-                .addContainerGap(136, Short.MAX_VALUE))
+                .addContainerGap(134, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

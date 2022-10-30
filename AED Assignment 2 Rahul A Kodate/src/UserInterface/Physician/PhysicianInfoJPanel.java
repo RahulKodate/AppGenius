@@ -76,7 +76,7 @@ public class PhysicianInfoJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 105, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        UpdateBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        UpdateBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         UpdateBtn.setText("Update");
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,7 +85,7 @@ public class PhysicianInfoJPanel extends javax.swing.JPanel {
         });
         add(UpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 390, 120, -1));
 
-        saveBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        saveBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,7 +94,7 @@ public class PhysicianInfoJPanel extends javax.swing.JPanel {
         });
         add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(465, 390, 110, -1));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         backBtn.setText("< Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,7 +103,7 @@ public class PhysicianInfoJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 130, -1));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("AppleMyungjo", 1, 36)); // NOI18N
         jLabel1.setText("VIEW DOCTOR");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 30, 300, 42));
 

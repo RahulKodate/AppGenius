@@ -96,7 +96,7 @@
                       <Component id="btnUpcomingAppointments" min="-2" pref="45" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btnScheduleAppointment" min="-2" pref="45" max="-2" attributes="0"/>
-                      <EmptySpace pref="465" max="32767" attributes="0"/>
+                      <EmptySpace pref="466" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -108,7 +108,7 @@
                   <Color blue="66" green="ff" red="66" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Lucida Grande" size="13" style="1"/>
+                  <Font name="AppleMyungjo" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Upcoming Appointments"/>
               </Properties>
@@ -122,7 +122,7 @@
                   <Color blue="66" green="ff" red="66" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Lucida Grande" size="13" style="1"/>
+                  <Font name="AppleMyungjo" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Schedule Appointment"/>
               </Properties>
@@ -133,7 +133,7 @@
             <Component class="javax.swing.JButton" name="backBtn">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Lucida Grande" size="13" style="3"/>
+                  <Font name="AppleMyungjo" size="14" style="3"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt; Back"/>
               </Properties>

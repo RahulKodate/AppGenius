@@ -117,7 +117,7 @@ public class SearchPatientJPanel extends javax.swing.JPanel {
 
         jPanel1.add(patientComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 81, 135, -1));
 
-        patientDetails.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        patientDetails.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         patientDetails.setText("Patient Details");
         patientDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,7 +126,7 @@ public class SearchPatientJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(patientDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 125, 170, 50));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         backBtn.setText("< Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

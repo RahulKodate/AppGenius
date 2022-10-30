@@ -96,7 +96,7 @@ public class SearchJPanel extends javax.swing.JPanel {
         leftJPanel.setBackground(new java.awt.Color(0, 105, 255));
         leftJPanel.setPreferredSize(new java.awt.Dimension(194, 525));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         backBtn.setText("< Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,7 +111,7 @@ public class SearchJPanel extends javax.swing.JPanel {
         });
 
         btnPatientDetails.setBackground(new java.awt.Color(102, 255, 102));
-        btnPatientDetails.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnPatientDetails.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnPatientDetails.setText("Patient Details");
         btnPatientDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -119,6 +119,7 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
+        lblSelectPatient.setFont(new java.awt.Font("AppleMyungjo", 0, 13)); // NOI18N
         lblSelectPatient.setText("Select Patient:");
 
         javax.swing.GroupLayout leftJPanelLayout = new javax.swing.GroupLayout(leftJPanel);
@@ -150,7 +151,7 @@ public class SearchJPanel extends javax.swing.JPanel {
                 .addComponent(patientComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnPatientDetails, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(328, Short.MAX_VALUE))
+                .addContainerGap(327, Short.MAX_VALUE))
         );
 
         SearchJPanelSplitPane.setLeftComponent(leftJPanel);

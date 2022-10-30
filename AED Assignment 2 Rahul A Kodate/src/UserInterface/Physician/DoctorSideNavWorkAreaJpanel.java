@@ -57,14 +57,14 @@ public class DoctorSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        leftJPanel.setBackground(new java.awt.Color(172, 255, 172));
+        leftJPanel.setBackground(new java.awt.Color(0, 105, 255));
         leftJPanel.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         leftJPanel.setMinimumSize(new java.awt.Dimension(280, 840));
         leftJPanel.setPreferredSize(new java.awt.Dimension(280, 840));
         leftJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnAppointments.setBackground(new java.awt.Color(98, 203, 182));
-        btnAppointments.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnAppointments.setBackground(new java.awt.Color(102, 255, 102));
+        btnAppointments.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnAppointments.setText("Appointments");
         btnAppointments.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,8 +73,8 @@ public class DoctorSideNavWorkAreaJpanel extends javax.swing.JPanel {
         });
         leftJPanel.add(btnAppointments, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 200, 40));
 
-        btnPatientHistory.setBackground(new java.awt.Color(98, 203, 182));
-        btnPatientHistory.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnPatientHistory.setBackground(new java.awt.Color(102, 255, 102));
+        btnPatientHistory.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnPatientHistory.setText("Patient History");
         btnPatientHistory.setMaximumSize(new java.awt.Dimension(200, 40));
         btnPatientHistory.setMinimumSize(new java.awt.Dimension(200, 40));
@@ -86,8 +86,8 @@ public class DoctorSideNavWorkAreaJpanel extends javax.swing.JPanel {
         });
         leftJPanel.add(btnPatientHistory, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, -1, -1));
 
-        btnPersonalInformation.setBackground(new java.awt.Color(98, 203, 182));
-        btnPersonalInformation.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnPersonalInformation.setBackground(new java.awt.Color(102, 255, 102));
+        btnPersonalInformation.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         btnPersonalInformation.setText("Personal Information");
         btnPersonalInformation.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,7 +100,7 @@ public class DoctorSideNavWorkAreaJpanel extends javax.swing.JPanel {
         rightJPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightJPanel.setLayout(new java.awt.CardLayout());
 
-        systemAdminPanel.setBackground(new java.awt.Color(204, 255, 204));
+        systemAdminPanel.setBackground(new java.awt.Color(0, 105, 255));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);

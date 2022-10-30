@@ -123,7 +123,7 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         jLabel4.setText("Notes: ");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 330, -1, -1));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         backBtn.setText("< Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,7 +132,7 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 110, -1));
 
-        addNotesBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        addNotesBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         addNotesBtn.setText("Add Notes");
         addNotesBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,7 +141,7 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         });
         add(addNotesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 430, -1, -1));
 
-        saveBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        saveBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
