@@ -83,7 +83,7 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
             }
         });
 
-        backBtn.setFont(new java.awt.Font("AppleMyungjo", 3, 14)); // NOI18N
+        backBtn.setFont(new java.awt.Font("AppleMyungjo", 1, 14)); // NOI18N
         backBtn.setText("< Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

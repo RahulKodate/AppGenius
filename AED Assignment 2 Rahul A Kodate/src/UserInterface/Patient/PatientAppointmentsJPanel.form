@@ -133,7 +133,7 @@
             <Component class="javax.swing.JButton" name="backBtn">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="AppleMyungjo" size="14" style="3"/>
+                  <Font name="AppleMyungjo" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt; Back"/>
               </Properties>
