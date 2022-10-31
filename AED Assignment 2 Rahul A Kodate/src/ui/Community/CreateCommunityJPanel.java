@@ -56,14 +56,14 @@ public class CreateCommunityJPanel extends javax.swing.JPanel {
         txtHouse = new javax.swing.JTextField();
         btnCreateCommunity = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblCreatePerson.setFont(new java.awt.Font("Operator Mono", 1, 24)); // NOI18N
+        lblCreatePerson.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         lblCreatePerson.setForeground(new java.awt.Color(255, 255, 255));
         lblCreatePerson.setText("Create Community Profile");
 
-        btnBack.setBackground(new java.awt.Color(51, 102, 255));
-        btnBack.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnBack.setBackground(new java.awt.Color(255, 0, 0));
+        btnBack.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("<- Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -72,15 +72,15 @@ public class CreateCommunityJPanel extends javax.swing.JPanel {
             }
         });
 
-        lblFName.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblFName.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblFName.setForeground(new java.awt.Color(255, 255, 255));
         lblFName.setText("Name");
 
-        lblLName.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblLName.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblLName.setForeground(new java.awt.Color(255, 255, 255));
         lblLName.setText("House");
 
-        lblAge.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblAge.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblAge.setForeground(new java.awt.Color(255, 255, 255));
         lblAge.setText("City");
 
@@ -91,8 +91,8 @@ public class CreateCommunityJPanel extends javax.swing.JPanel {
 
         txtHouse.setFont(new java.awt.Font("Operator Mono", 0, 13)); // NOI18N
 
-        btnCreateCommunity.setBackground(new java.awt.Color(51, 102, 255));
-        btnCreateCommunity.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnCreateCommunity.setBackground(new java.awt.Color(255, 0, 0));
+        btnCreateCommunity.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnCreateCommunity.setForeground(new java.awt.Color(255, 255, 255));
         btnCreateCommunity.setText("Create Community");
         btnCreateCommunity.setToolTipText("");
@@ -128,7 +128,7 @@ public class CreateCommunityJPanel extends javax.swing.JPanel {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(415, 415, 415)
                         .addComponent(btnCreateCommunity)))
-                .addContainerGap(327, Short.MAX_VALUE))
+                .addContainerGap(329, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -149,7 +149,7 @@ public class CreateCommunityJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblAge)
                     .addComponent(txtCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 136, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 139, Short.MAX_VALUE)
                 .addComponent(btnCreateCommunity)
                 .addGap(117, 117, 117))
         );

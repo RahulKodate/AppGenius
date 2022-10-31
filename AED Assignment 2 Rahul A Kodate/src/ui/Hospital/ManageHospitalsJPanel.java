@@ -77,9 +77,9 @@ public class ManageHospitalsJPanel extends javax.swing.JPanel {
         txtSearchHospital = new javax.swing.JTextField();
         btnSearchHospital = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblPersonMgmt.setFont(new java.awt.Font("Operator Mono", 1, 24)); // NOI18N
+        lblPersonMgmt.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         lblPersonMgmt.setForeground(new java.awt.Color(255, 255, 255));
         lblPersonMgmt.setText("Hospital Management");
 
@@ -102,8 +102,8 @@ public class ManageHospitalsJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblHospital);
 
-        btnRefresh.setBackground(new java.awt.Color(51, 102, 255));
-        btnRefresh.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnRefresh.setBackground(new java.awt.Color(255, 0, 0));
+        btnRefresh.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnRefresh.setForeground(new java.awt.Color(255, 255, 255));
         btnRefresh.setText("Refresh Table");
         btnRefresh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -113,8 +113,8 @@ public class ManageHospitalsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setBackground(new java.awt.Color(51, 102, 255));
-        btnBack.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnBack.setBackground(new java.awt.Color(255, 0, 0));
+        btnBack.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("<- Back");
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -124,8 +124,8 @@ public class ManageHospitalsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDeleteHospital.setBackground(new java.awt.Color(51, 102, 255));
-        btnDeleteHospital.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnDeleteHospital.setBackground(new java.awt.Color(255, 0, 0));
+        btnDeleteHospital.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnDeleteHospital.setForeground(new java.awt.Color(255, 255, 255));
         btnDeleteHospital.setText("Delete Hospital");
         btnDeleteHospital.setToolTipText("");
@@ -136,8 +136,8 @@ public class ManageHospitalsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnViewHospital.setBackground(new java.awt.Color(51, 102, 255));
-        btnViewHospital.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnViewHospital.setBackground(new java.awt.Color(255, 0, 0));
+        btnViewHospital.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnViewHospital.setForeground(new java.awt.Color(255, 255, 255));
         btnViewHospital.setText("View Hospital");
         btnViewHospital.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -147,8 +147,8 @@ public class ManageHospitalsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnCreateHospital.setBackground(new java.awt.Color(51, 102, 255));
-        btnCreateHospital.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnCreateHospital.setBackground(new java.awt.Color(255, 0, 0));
+        btnCreateHospital.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnCreateHospital.setForeground(new java.awt.Color(255, 255, 255));
         btnCreateHospital.setText("Create Hospital");
         btnCreateHospital.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -158,8 +158,8 @@ public class ManageHospitalsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnUpdateHospital.setBackground(new java.awt.Color(51, 102, 255));
-        btnUpdateHospital.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnUpdateHospital.setBackground(new java.awt.Color(255, 0, 0));
+        btnUpdateHospital.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnUpdateHospital.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdateHospital.setText("Update Hospital");
         btnUpdateHospital.setToolTipText("");
@@ -174,8 +174,8 @@ public class ManageHospitalsJPanel extends javax.swing.JPanel {
 
         txtSearchHospital.setFont(new java.awt.Font("Operator Mono", 0, 13)); // NOI18N
 
-        btnSearchHospital.setBackground(new java.awt.Color(51, 102, 255));
-        btnSearchHospital.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnSearchHospital.setBackground(new java.awt.Color(255, 0, 0));
+        btnSearchHospital.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnSearchHospital.setForeground(new java.awt.Color(255, 255, 255));
         btnSearchHospital.setText("Search Hospital by Name");
         btnSearchHospital.setToolTipText("");

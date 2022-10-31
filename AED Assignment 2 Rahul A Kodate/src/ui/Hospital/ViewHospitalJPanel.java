@@ -51,17 +51,17 @@ public class ViewHospitalJPanel extends javax.swing.JPanel {
         lblLName = new javax.swing.JLabel();
         txtAddress = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblPersonMgmt.setFont(new java.awt.Font("Operator Mono", 1, 24)); // NOI18N
+        lblPersonMgmt.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         lblPersonMgmt.setForeground(new java.awt.Color(255, 255, 255));
         lblPersonMgmt.setText("Hospital Details");
 
-        lblFName.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblFName.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblFName.setForeground(new java.awt.Color(255, 255, 255));
         lblFName.setText("Name");
 
-        lblAge.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblAge.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblAge.setForeground(new java.awt.Color(255, 255, 255));
         lblAge.setText("Community");
 
@@ -69,8 +69,8 @@ public class ViewHospitalJPanel extends javax.swing.JPanel {
 
         txtCommunity.setFont(new java.awt.Font("Operator Mono", 0, 13)); // NOI18N
 
-        btnSave.setBackground(new java.awt.Color(51, 102, 255));
-        btnSave.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnSave.setBackground(new java.awt.Color(255, 0, 0));
+        btnSave.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnSave.setForeground(new java.awt.Color(255, 255, 255));
         btnSave.setText("Save");
         btnSave.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -80,8 +80,8 @@ public class ViewHospitalJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnUpdate.setBackground(new java.awt.Color(51, 102, 255));
-        btnUpdate.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnUpdate.setBackground(new java.awt.Color(255, 0, 0));
+        btnUpdate.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdate.setText("Update");
         btnUpdate.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -91,8 +91,8 @@ public class ViewHospitalJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setBackground(new java.awt.Color(51, 102, 255));
-        btnBack.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnBack.setBackground(new java.awt.Color(255, 0, 0));
+        btnBack.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("<- Back");
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -102,7 +102,7 @@ public class ViewHospitalJPanel extends javax.swing.JPanel {
             }
         });
 
-        lblLName.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblLName.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblLName.setForeground(new java.awt.Color(255, 255, 255));
         lblLName.setText("Address");
 
@@ -162,7 +162,7 @@ public class ViewHospitalJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnSave)
                     .addComponent(btnUpdate))
-                .addContainerGap(295, Short.MAX_VALUE))
+                .addContainerGap(298, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

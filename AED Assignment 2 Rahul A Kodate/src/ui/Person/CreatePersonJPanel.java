@@ -61,13 +61,13 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
         tblHouse = new javax.swing.JTable();
         btnHouse = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblCreatePerson.setFont(new java.awt.Font("Operator Mono", 1, 24)); // NOI18N
+        lblCreatePerson.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         lblCreatePerson.setForeground(new java.awt.Color(255, 255, 255));
         lblCreatePerson.setText("Create Person Profile");
 
-        btnBack.setBackground(new java.awt.Color(51, 102, 255));
+        btnBack.setBackground(new java.awt.Color(255, 0, 0));
         btnBack.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("<- Back");
@@ -77,19 +77,19 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
             }
         });
 
-        lblFName.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblFName.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblFName.setForeground(new java.awt.Color(255, 255, 255));
         lblFName.setText("First Name");
 
-        lblLName.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblLName.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblLName.setForeground(new java.awt.Color(255, 255, 255));
         lblLName.setText("Last Name");
 
-        lblAge.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblAge.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblAge.setForeground(new java.awt.Color(255, 255, 255));
         lblAge.setText("Age");
 
-        lblDOB.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        lblDOB.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         lblDOB.setForeground(new java.awt.Color(255, 255, 255));
         lblDOB.setText("Date of Birth");
 
@@ -99,7 +99,7 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
 
         txtLName.setFont(new java.awt.Font("Operator Mono", 0, 13)); // NOI18N
 
-        btnCreatePerson.setBackground(new java.awt.Color(51, 102, 255));
+        btnCreatePerson.setBackground(new java.awt.Color(255, 0, 0));
         btnCreatePerson.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
         btnCreatePerson.setForeground(new java.awt.Color(255, 255, 255));
         btnCreatePerson.setText("Create Person");
@@ -154,6 +154,9 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
         });
         jScrollPane2.setViewportView(tblHouse);
 
+        btnHouse.setBackground(new java.awt.Color(255, 0, 0));
+        btnHouse.setFont(new java.awt.Font("Georgia", 0, 13)); // NOI18N
+        btnHouse.setForeground(new java.awt.Color(255, 255, 255));
         btnHouse.setText("View House");
         btnHouse.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,7 +191,7 @@ public class CreatePersonJPanel extends javax.swing.JPanel {
                                 .addComponent(btnCreatePerson)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 272, Short.MAX_VALUE)
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(88, 88, 88)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

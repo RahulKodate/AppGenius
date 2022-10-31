@@ -54,14 +54,14 @@ public class LandingPageDoctor extends javax.swing.JPanel {
         lblLanding = new javax.swing.JLabel();
         btnDoctorMgmt = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblLanding.setFont(new java.awt.Font("Operator Mono", 1, 36)); // NOI18N
+        lblLanding.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
         lblLanding.setForeground(new java.awt.Color(255, 255, 255));
         lblLanding.setText("Doctor Administrator");
 
-        btnDoctorMgmt.setBackground(new java.awt.Color(51, 102, 255));
-        btnDoctorMgmt.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
+        btnDoctorMgmt.setBackground(new java.awt.Color(255, 0, 0));
+        btnDoctorMgmt.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         btnDoctorMgmt.setForeground(new java.awt.Color(255, 255, 255));
         btnDoctorMgmt.setText("Doctor Directory");
         btnDoctorMgmt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -80,7 +80,7 @@ public class LandingPageDoctor extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(btnDoctorMgmt, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblLanding))
-                .addContainerGap(326, Short.MAX_VALUE))
+                .addContainerGap(319, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

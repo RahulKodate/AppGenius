@@ -54,14 +54,14 @@ public class LandingPagePatient extends javax.swing.JPanel {
         lblLanding = new javax.swing.JLabel();
         btnPatientMgmt = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblLanding.setFont(new java.awt.Font("Operator Mono", 1, 36)); // NOI18N
+        lblLanding.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
         lblLanding.setForeground(new java.awt.Color(255, 255, 255));
         lblLanding.setText("Patient Administrator");
 
-        btnPatientMgmt.setBackground(new java.awt.Color(51, 102, 255));
-        btnPatientMgmt.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
+        btnPatientMgmt.setBackground(new java.awt.Color(255, 0, 0));
+        btnPatientMgmt.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         btnPatientMgmt.setForeground(new java.awt.Color(255, 255, 255));
         btnPatientMgmt.setText("Patient Directory");
         btnPatientMgmt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -76,7 +76,7 @@ public class LandingPagePatient extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(317, Short.MAX_VALUE)
+                .addContainerGap(310, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnPatientMgmt, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblLanding))

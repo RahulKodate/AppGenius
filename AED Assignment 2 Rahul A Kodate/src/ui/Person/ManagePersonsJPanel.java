@@ -96,9 +96,9 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
         txtSearchPerson = new javax.swing.JTextField();
         btnSearchPerson = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblPersonMgmt.setFont(new java.awt.Font("Operator Mono", 1, 24)); // NOI18N
+        lblPersonMgmt.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         lblPersonMgmt.setForeground(new java.awt.Color(255, 255, 255));
         lblPersonMgmt.setText("Person Management");
 
@@ -121,8 +121,8 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblPerson);
 
-        btnRefresh.setBackground(new java.awt.Color(51, 102, 255));
-        btnRefresh.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnRefresh.setBackground(new java.awt.Color(255, 0, 0));
+        btnRefresh.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnRefresh.setForeground(new java.awt.Color(255, 255, 255));
         btnRefresh.setText("Refresh Table");
         btnRefresh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -132,8 +132,8 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setBackground(new java.awt.Color(51, 102, 255));
-        btnBack.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnBack.setBackground(new java.awt.Color(255, 0, 0));
+        btnBack.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("<- Back");
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -143,8 +143,8 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDeletePerson.setBackground(new java.awt.Color(51, 102, 255));
-        btnDeletePerson.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnDeletePerson.setBackground(new java.awt.Color(255, 0, 0));
+        btnDeletePerson.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnDeletePerson.setForeground(new java.awt.Color(255, 255, 255));
         btnDeletePerson.setText("Delete Person");
         btnDeletePerson.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -154,8 +154,8 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnViewPerson.setBackground(new java.awt.Color(51, 102, 255));
-        btnViewPerson.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnViewPerson.setBackground(new java.awt.Color(255, 0, 0));
+        btnViewPerson.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnViewPerson.setForeground(new java.awt.Color(255, 255, 255));
         btnViewPerson.setText("View Person");
         btnViewPerson.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -165,8 +165,8 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnCreatePerson.setBackground(new java.awt.Color(51, 102, 255));
-        btnCreatePerson.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnCreatePerson.setBackground(new java.awt.Color(255, 0, 0));
+        btnCreatePerson.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnCreatePerson.setForeground(new java.awt.Color(255, 255, 255));
         btnCreatePerson.setText("Create Person");
         btnCreatePerson.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -176,8 +176,8 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnUpdatePerson.setBackground(new java.awt.Color(51, 102, 255));
-        btnUpdatePerson.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnUpdatePerson.setBackground(new java.awt.Color(255, 0, 0));
+        btnUpdatePerson.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnUpdatePerson.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdatePerson.setText("Update Person");
         btnUpdatePerson.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -191,8 +191,8 @@ public class ManagePersonsJPanel extends javax.swing.JPanel {
 
         txtSearchPerson.setFont(new java.awt.Font("Operator Mono", 0, 13)); // NOI18N
 
-        btnSearchPerson.setBackground(new java.awt.Color(51, 102, 255));
-        btnSearchPerson.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnSearchPerson.setBackground(new java.awt.Color(255, 0, 0));
+        btnSearchPerson.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnSearchPerson.setForeground(new java.awt.Color(255, 255, 255));
         btnSearchPerson.setText("Search Person by Name");
         btnSearchPerson.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

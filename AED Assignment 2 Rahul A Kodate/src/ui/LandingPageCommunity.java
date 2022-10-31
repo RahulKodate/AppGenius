@@ -54,14 +54,14 @@ public class LandingPageCommunity extends javax.swing.JPanel {
         lblLanding = new javax.swing.JLabel();
         btnCommunityMgmt = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblLanding.setFont(new java.awt.Font("Operator Mono", 1, 36)); // NOI18N
+        lblLanding.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
         lblLanding.setForeground(new java.awt.Color(255, 255, 255));
         lblLanding.setText("Community Administrator");
 
-        btnCommunityMgmt.setBackground(new java.awt.Color(51, 102, 255));
-        btnCommunityMgmt.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
+        btnCommunityMgmt.setBackground(new java.awt.Color(255, 0, 0));
+        btnCommunityMgmt.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         btnCommunityMgmt.setForeground(new java.awt.Color(255, 255, 255));
         btnCommunityMgmt.setText("Community Directory");
         btnCommunityMgmt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -80,7 +80,7 @@ public class LandingPageCommunity extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(btnCommunityMgmt, javax.swing.GroupLayout.PREFERRED_SIZE, 441, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblLanding))
-                .addContainerGap(272, Short.MAX_VALUE))
+                .addContainerGap(264, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -83,9 +83,9 @@ public class ManageCommunityJPanel extends javax.swing.JPanel {
         txtSearchCommunity = new javax.swing.JTextField();
         btnSearchCommunity = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblDoctorMgmt.setFont(new java.awt.Font("Operator Mono", 1, 24)); // NOI18N
+        lblDoctorMgmt.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         lblDoctorMgmt.setForeground(new java.awt.Color(255, 255, 255));
         lblDoctorMgmt.setText("Community Management");
 
@@ -108,8 +108,8 @@ public class ManageCommunityJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblCommunity);
 
-        btnRefresh.setBackground(new java.awt.Color(51, 102, 255));
-        btnRefresh.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnRefresh.setBackground(new java.awt.Color(255, 0, 0));
+        btnRefresh.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnRefresh.setForeground(new java.awt.Color(255, 255, 255));
         btnRefresh.setText("Refresh Table");
         btnRefresh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -119,8 +119,8 @@ public class ManageCommunityJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setBackground(new java.awt.Color(51, 102, 255));
-        btnBack.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnBack.setBackground(new java.awt.Color(255, 0, 0));
+        btnBack.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("<- Back");
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -130,8 +130,8 @@ public class ManageCommunityJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDeleteCommunity.setBackground(new java.awt.Color(51, 102, 255));
-        btnDeleteCommunity.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnDeleteCommunity.setBackground(new java.awt.Color(255, 0, 0));
+        btnDeleteCommunity.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnDeleteCommunity.setForeground(new java.awt.Color(255, 255, 255));
         btnDeleteCommunity.setText("Delete Community");
         btnDeleteCommunity.setToolTipText("");
@@ -142,8 +142,8 @@ public class ManageCommunityJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnViewCommunity.setBackground(new java.awt.Color(51, 102, 255));
-        btnViewCommunity.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnViewCommunity.setBackground(new java.awt.Color(255, 0, 0));
+        btnViewCommunity.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnViewCommunity.setForeground(new java.awt.Color(255, 255, 255));
         btnViewCommunity.setText("View Community");
         btnViewCommunity.setToolTipText("");
@@ -154,8 +154,8 @@ public class ManageCommunityJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnCreateCommunity.setBackground(new java.awt.Color(51, 102, 255));
-        btnCreateCommunity.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnCreateCommunity.setBackground(new java.awt.Color(255, 0, 0));
+        btnCreateCommunity.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnCreateCommunity.setForeground(new java.awt.Color(255, 255, 255));
         btnCreateCommunity.setText("Create Community");
         btnCreateCommunity.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -165,8 +165,8 @@ public class ManageCommunityJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnUpdateCommunity.setBackground(new java.awt.Color(51, 102, 255));
-        btnUpdateCommunity.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnUpdateCommunity.setBackground(new java.awt.Color(255, 0, 0));
+        btnUpdateCommunity.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnUpdateCommunity.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdateCommunity.setText("Update Community");
         btnUpdateCommunity.setToolTipText("");
@@ -181,8 +181,8 @@ public class ManageCommunityJPanel extends javax.swing.JPanel {
 
         txtSearchCommunity.setFont(new java.awt.Font("Operator Mono", 0, 13)); // NOI18N
 
-        btnSearchCommunity.setBackground(new java.awt.Color(51, 102, 255));
-        btnSearchCommunity.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnSearchCommunity.setBackground(new java.awt.Color(255, 0, 0));
+        btnSearchCommunity.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnSearchCommunity.setForeground(new java.awt.Color(255, 255, 255));
         btnSearchCommunity.setText("Search Community by Name");
         btnSearchCommunity.setToolTipText("");

@@ -60,13 +60,13 @@ public class LandingPageCred extends javax.swing.JPanel {
         txtUser = new javax.swing.JTextField();
         txtPassword = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblLanding.setFont(new java.awt.Font("Operator Mono", 1, 36)); // NOI18N
+        lblLanding.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
         lblLanding.setForeground(new java.awt.Color(255, 255, 255));
         lblLanding.setText("Login");
 
-        btnLogin.setBackground(new java.awt.Color(51, 102, 255));
+        btnLogin.setBackground(new java.awt.Color(255, 0, 0));
         btnLogin.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
         btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Login");

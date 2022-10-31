@@ -57,9 +57,9 @@ public class ViewVitalSignEncounters extends javax.swing.JPanel {
         btnDeleteEncounter = new javax.swing.JButton();
         btnEditEncounter = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblLanding.setFont(new java.awt.Font("Operator Mono", 1, 24)); // NOI18N
+        lblLanding.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         lblLanding.setForeground(new java.awt.Color(255, 255, 255));
         lblLanding.setText("Encounters & Vitals");
 
@@ -74,12 +74,12 @@ public class ViewVitalSignEncounters extends javax.swing.JPanel {
         ));
         jScrollPane2.setViewportView(tblEncounterHistory);
 
-        lblLanding2.setFont(new java.awt.Font("Operator Mono", 1, 24)); // NOI18N
+        lblLanding2.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         lblLanding2.setForeground(new java.awt.Color(255, 255, 255));
         lblLanding2.setText("Encounter History");
 
-        btnBack.setBackground(new java.awt.Color(51, 102, 255));
-        btnBack.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnBack.setBackground(new java.awt.Color(255, 0, 0));
+        btnBack.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("<- Back");
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -89,8 +89,8 @@ public class ViewVitalSignEncounters extends javax.swing.JPanel {
             }
         });
 
-        btnRefreshEncounter.setBackground(new java.awt.Color(51, 102, 255));
-        btnRefreshEncounter.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnRefreshEncounter.setBackground(new java.awt.Color(255, 0, 0));
+        btnRefreshEncounter.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnRefreshEncounter.setForeground(new java.awt.Color(255, 255, 255));
         btnRefreshEncounter.setText("Refresh");
         btnRefreshEncounter.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -100,8 +100,8 @@ public class ViewVitalSignEncounters extends javax.swing.JPanel {
             }
         });
 
-        btnViewEncounterDetails.setBackground(new java.awt.Color(51, 102, 255));
-        btnViewEncounterDetails.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnViewEncounterDetails.setBackground(new java.awt.Color(255, 0, 0));
+        btnViewEncounterDetails.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnViewEncounterDetails.setForeground(new java.awt.Color(255, 255, 255));
         btnViewEncounterDetails.setText("View");
         btnViewEncounterDetails.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -111,8 +111,8 @@ public class ViewVitalSignEncounters extends javax.swing.JPanel {
             }
         });
 
-        btnDeleteEncounter.setBackground(new java.awt.Color(51, 102, 255));
-        btnDeleteEncounter.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnDeleteEncounter.setBackground(new java.awt.Color(255, 0, 0));
+        btnDeleteEncounter.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnDeleteEncounter.setForeground(new java.awt.Color(255, 255, 255));
         btnDeleteEncounter.setText("Delete");
         btnDeleteEncounter.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -122,8 +122,8 @@ public class ViewVitalSignEncounters extends javax.swing.JPanel {
             }
         });
 
-        btnEditEncounter.setBackground(new java.awt.Color(51, 102, 255));
-        btnEditEncounter.setFont(new java.awt.Font("Operator Mono", 1, 13)); // NOI18N
+        btnEditEncounter.setBackground(new java.awt.Color(255, 0, 0));
+        btnEditEncounter.setFont(new java.awt.Font("Georgia", 1, 13)); // NOI18N
         btnEditEncounter.setForeground(new java.awt.Color(255, 255, 255));
         btnEditEncounter.setText("Edit");
         btnEditEncounter.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -155,10 +155,10 @@ public class ViewVitalSignEncounters extends javax.swing.JPanel {
                                 .addGap(62, 62, 62)
                                 .addComponent(btnRefreshEncounter)
                                 .addGap(2, 2, 2)))
-                        .addContainerGap(694, Short.MAX_VALUE))
+                        .addContainerGap(681, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnBack)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 419, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(lblLanding)
                         .addGap(349, 349, 349))))
         );
@@ -180,7 +180,7 @@ public class ViewVitalSignEncounters extends javax.swing.JPanel {
                     .addComponent(btnViewEncounterDetails)
                     .addComponent(btnDeleteEncounter)
                     .addComponent(btnEditEncounter))
-                .addContainerGap(254, Short.MAX_VALUE))
+                .addContainerGap(259, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

@@ -62,14 +62,14 @@ public class LandingPageSystem extends javax.swing.JPanel {
         btnDoctorMgmt = new javax.swing.JButton();
         btnCommunityMgmt = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(153, 153, 255));
 
-        lblLanding.setFont(new java.awt.Font("Operator Mono", 1, 36)); // NOI18N
+        lblLanding.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
         lblLanding.setForeground(new java.awt.Color(255, 255, 255));
         lblLanding.setText("Administrator");
 
-        btnPersonMgmt.setBackground(new java.awt.Color(51, 102, 255));
-        btnPersonMgmt.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
+        btnPersonMgmt.setBackground(new java.awt.Color(255, 0, 0));
+        btnPersonMgmt.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         btnPersonMgmt.setForeground(new java.awt.Color(255, 255, 255));
         btnPersonMgmt.setText("Person Directory");
         btnPersonMgmt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -79,8 +79,8 @@ public class LandingPageSystem extends javax.swing.JPanel {
             }
         });
 
-        btnHospitalMgmt.setBackground(new java.awt.Color(51, 102, 255));
-        btnHospitalMgmt.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
+        btnHospitalMgmt.setBackground(new java.awt.Color(255, 0, 0));
+        btnHospitalMgmt.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         btnHospitalMgmt.setForeground(new java.awt.Color(255, 255, 255));
         btnHospitalMgmt.setText("Hospital Directory");
         btnHospitalMgmt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -90,8 +90,8 @@ public class LandingPageSystem extends javax.swing.JPanel {
             }
         });
 
-        btnPatientMgmt.setBackground(new java.awt.Color(51, 102, 255));
-        btnPatientMgmt.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
+        btnPatientMgmt.setBackground(new java.awt.Color(255, 0, 0));
+        btnPatientMgmt.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         btnPatientMgmt.setForeground(new java.awt.Color(255, 255, 255));
         btnPatientMgmt.setText("Patient Directory");
         btnPatientMgmt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -101,8 +101,8 @@ public class LandingPageSystem extends javax.swing.JPanel {
             }
         });
 
-        btnDoctorMgmt.setBackground(new java.awt.Color(51, 102, 255));
-        btnDoctorMgmt.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
+        btnDoctorMgmt.setBackground(new java.awt.Color(255, 0, 0));
+        btnDoctorMgmt.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         btnDoctorMgmt.setForeground(new java.awt.Color(255, 255, 255));
         btnDoctorMgmt.setText("Doctor Directory");
         btnDoctorMgmt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -112,8 +112,8 @@ public class LandingPageSystem extends javax.swing.JPanel {
             }
         });
 
-        btnCommunityMgmt.setBackground(new java.awt.Color(51, 102, 255));
-        btnCommunityMgmt.setFont(new java.awt.Font("Operator Mono", 1, 18)); // NOI18N
+        btnCommunityMgmt.setBackground(new java.awt.Color(255, 0, 0));
+        btnCommunityMgmt.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         btnCommunityMgmt.setForeground(new java.awt.Color(255, 255, 255));
         btnCommunityMgmt.setText("Community Directory");
         btnCommunityMgmt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -137,7 +137,7 @@ public class LandingPageSystem extends javax.swing.JPanel {
                         .addComponent(btnPatientMgmt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnDoctorMgmt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnCommunityMgmt, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(393, Short.MAX_VALUE))
+                .addContainerGap(386, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
