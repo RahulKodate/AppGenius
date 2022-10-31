@@ -4,7 +4,7 @@ package model;
  *
  * @author rahulkodate
  */
-public class Doctor extends Person {
+public class Doctor {
 
     private String firstName;
     private String lastName;
