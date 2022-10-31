@@ -92,7 +92,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Georgia", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("MEDICAL RESOURCE SYSTEM");
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/MedicalResource4.jpeg"))); // NOI18N
         userProcessContainer.add(jLabel1, "card2");
 
         splitPane.setRightComponent(userProcessContainer);
